@@ -63,4 +63,41 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+ * {
+	 font-size: 100%;
+ }
+ .container {
+	margin: 180px auto 10px auto;
+    width: 1000px;
+ }
+ nav {
+	
+	
+	width: 1000px;
+	margin: 25px auto;
+	margin-bottom: 50px;
+	margin-right: 50px;
+	display: inline-block;
+	padding: 12px;
+	
+
+ }
+ nav a {
+	 background-color:white;
+	 color: red;
+	 text-align: left;
+	 text-decoration: none;
+	 margin-right:  61px;
+	 margin-left: 5px;
+	 transition: .04s;
+ }
+ nav a:hover {
+	background: white;
+	color: #737373;
+	padding: 12px 12px;
+	border: 5px double black;
+	animation-name: slide;
+	animation-duration: .5s;
+ }
+
+ 
