@@ -74,7 +74,7 @@ body {
 .container {
 	background:url( 'User-Interface\great-idea-website\img\mid-page-accent.jpg');
 	width: 800px;
-	margin: auto;
+	margin: 0 auto;
 	}
 	
 	
@@ -86,28 +86,20 @@ p {
 .top-nav {
 	
 	position:fixed;
-	
 	margin: 0 auto;
-  border: 1px solid lightgray;
-  padding: 20px;
-  display: inline-block;
-  border-radius: 20px;
-  
-  text-decoration: none;
-  
-   /*======= create a background property. Set the value to #F87B99 */
-  background: gray;
-  box-shadow:10px 10px 5px  orangered;
+    border: 1px solid lightgray;
+    display: inline-block;
+    border-radius: 20px;
+    text-decoration: none;
+    background: rgb(110, 11, 11);
+    box-shadow:10px 10px 5px  orangered;
 }
 
 nav {
-	
 	display: inline-block;
-	
-    
-     text-decoration: none;
-   margin-bottom: 20px;
-   box-shadow:10px 10px 5px  black;
+	text-decoration: none;
+    margin-bottom: 20px;
+    box-shadow:10px 10px 5px  black;
 }
 
 nav a {
@@ -121,9 +113,10 @@ nav a {
 	padding:5px;
 	border-radius:10PX;
 	box-shadow:10px 10px 5px  black;
+	
 }
 
-.top-nav a:hover{
+  nav a:hover{
 	background: green ;
 	color: greenyellow;
 	text-decoration: none;
@@ -131,14 +124,15 @@ nav a {
 	padding:5px;
 	border-radius:10PX;
 	box-shadow:10px 10px 5px  black;
+	
 }
 .logo {
 	background:white;
 	display: inline-block;
 	margin: 20px 0 -11px 50px;
-	padding:5px;
-	border-radius:10PX;
-	box-shadow:10px 10px 5px  black;
+	border-radius: 5px;
+	
+	
 }
 
 .header-content {
@@ -146,8 +140,9 @@ nav a {
 }
 
 .billboard {
-	margin-top: 50px;
+	margin-top: 120px;
 	display: inline-block;
+	
 }
 
 .main-heading {
@@ -164,7 +159,8 @@ nav a {
 }
 
 .main-heading button {
-	margin: -29px 78px 54px 100px;
+	
+	margin: -500px 110px 110px 110px ;
 	padding: 5px 33px;
 	font-size: 13px;
 	text-align: center;
@@ -173,9 +169,11 @@ nav a {
 }
 
 .main-img {
-	display: inline-block;
+	
+	margin-bottom: 30px;
 	width: 50px;
-	box-shadow:10px 10px 5px  black;
+	
+	
 }
 
 .top-content {
