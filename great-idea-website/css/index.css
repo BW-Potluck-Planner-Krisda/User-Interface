@@ -69,12 +69,23 @@ h1, h2, h3, h4, h5 {
 	width: 800px;
 	margin: auto;
 	}
+	body {
+	  background: ;	
+	}
+	
+p {
+	font-family: 'Courgette', cursive;	
+}
+
 
 .top-nav {
+	background: chocolate;
+	position:fixed;
 	margin: 0 auto;
 }
 
 nav {
+	background: orangered;
 	display: inline-block;
 	margin: 0 0 10px;
 }
@@ -87,6 +98,7 @@ nav a {
 }
 
 .logo {
+	
 	display: inline-block;
 	margin: 20px 0 -11px 50px;
 }
@@ -123,7 +135,8 @@ nav a {
 
 .main-img {
 	display: inline-block;
-	width: 400px;
+	width: 100px;
+	
 }
 
 .top-content {
@@ -149,7 +162,9 @@ nav a {
 
 .bottom-content {
 	width: 800px;
-	margin-top: 20px;
+	margin-top: 30px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid black;
 }
 
 .bottom-left {
@@ -162,6 +177,7 @@ nav a {
 	display: inline-block;
 	width: 250px;
 	margin-right:13px;
+  margin-bottom: 20px;
 }
 
 .bottom-right {
