@@ -1,0 +1,2233 @@
+<!DOCTYPE html>
+<!-- saved from url=(0023)https://codecombat.com/ -->
+<html lang="en" class="gr__codecombat_com js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=1024"><meta http-equiv="Accept-CH" content="Viewport-Width"><title>CodeCombat - Coding games to learn Python and JavaScript | CodeCombat</title><meta property="og:title" content="CodeCombat: Learn to Code by Playing a Game"><meta property="og:url" content="http://codecombat.com"><meta property="og:type" content="game"><meta property="og:image" content="http://codecombat.com/images/pages/home/play_img.png"><meta property="og:site_name" content="CodeCombat"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="CodeCombat: Learn to Code by Playing a Game"><meta name="twitter:url" content="http://codecombat.com"><meta name="twitter:site" content="CodeCombat"><meta name="twitter:image:src" content="http://codecombat.com/images/pages/base/logo_square_250.png"><meta name="twitter:description" content="Learn programming with a multiplayer live coding strategy game for beginners. Learn Python or JavaScript as you defeat ogres, solve mazes, and level up. Open source HTML5 game!"><meta name="p:domain_verify" content="f5afcb2c36bb8b1cbd70c44b65e5ec75"><link href="https://plus.google.com/115285980638641924488" rel="publisher"><link rel="shortcut icon" href="https://codecombat.com/images/favicon.ico"><link rel="apple-touch-icon" href="https://codecombat.com/images/pages/base/logo_square_250.png"><link rel="manifest" href="https://codecombat.com/pwa/manifest.json"><link rel="stylesheet" href="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/app.css"><script src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/cb=gapi(1).loaded_0" async=""></script><script src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/sdk.js.download" async="" crossorigin="anonymous"></script><script type="text/javascript" async="" src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/client_platform.js.download" gapi_processed="true"></script><script id="facebook-jssdk" async="" src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/sdk.js(1).download"></script><script src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/514962702046652" async=""></script><script src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/identity.js.download" async=""></script><script type="text/javascript" async="" src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/fbevents.js.download"></script><script type="text/javascript" async="" src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/zzeo1k6k"></script><script type="text/javascript" async="" src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/analytics.min.js.download"></script><script type="text/javascript" async="" src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/f.txt"></script><script async="" src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/0ykP68INoOVRZMi42LjI.js.download"></script><script async="" src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/analytics.js.download"></script><script>var DEXECURE_URL = "/dexecure-c167a5675c.js";
+"serviceWorker"in navigator&&navigator.serviceWorker.register(DEXECURE_URL,{scope:'/'}).then(function(e){"/"!=new URL(e.scope).pathname&&console.log("Service worker scope is not /")})["catch"](function(e){console.log("Unable to register service worker.");console.log(e)});</script><script>window.javascriptsPath = '/1c8a8e87bd722e5a40a8ea929abe427dd5a8e132-0eecdf5a8f2b6a0991095f86c4325767b8fb1c0c/javascripts/';</script><script src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/HomeView-f9c529641648cd1c3dce.bundle.js.download" defer=""></script><script src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/app.js.download" defer="" async="" data-ace-base="/javascripts/ace">// This data tag needs to be on SOME script with a src for Ace to work</script><script src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/user-data"></script><!-- Google Analytics--><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-39724129-1', 'auto');
+
+if(features.codePlay) { ga('create', 'UA-80597440-3', {name: 'codeplay'}); }
+</script><!-- Global site tag (gtag.js) - Google Ads: 811324643--><script async="" src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/js"></script><script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'AW-811324643');</script><script type="text/javascript">;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
+p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
+n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","//d2sm9kaamnsba.cloudfront.net/0ykP68INoOVRZMi42LjI.js","snowplow"));
+window.snowplow('newTracker', 'co', 'com-codecombat-main.collector.snplow.net', {
+  platform: 'web',
+  post: true,
+  contexts: {
+    webPage: true,
+    performanceTiming: true
+  }
+});
+</script><script src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/checkout.js.download"></script><!-- CodePlay Tags Header--><!-- Webpack-inserted CSS:--><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "VideoGame",
+  "name": "CodeCombat",
+  "url": "https://codecombat.com",
+  "image": "https://codecombat.com/images/pages/base/logo.png", 
+  "description": "Learn programming with a multiplayer live coding strategy game for beginners. Learn Python or JavaScript as you defeat ogres, solve mazes, and level up.",
+    "offers":{
+    "@type":"Offer",
+    "price":"1",
+    "priceCurrency":"USD",
+    "availability":"http://schema.org/InStock"
+  },
+  "aggregateRating":{
+    "@type":"AggregateRating",
+    "ratingValue":"4",
+    "ratingCount":"4"
+  },
+  "author":{
+    "@type":"Organization",
+    "name":"CodeCombat",
+        "url":"https://codecombat.com",
+"sameAs" : [
+        "https://en.wikipedia.org/wiki/CodeCombat", 
+        "https://twitter.com/codecombat?lang=en", 
+        "https://www.facebook.com/codecombat"
+      ]
+},
+  "publisher":"CodeCombat",
+  "genre":["Coding Games"],
+  "memoryRequirements":"2 Gb",
+  "applicationCategory":"Game"
+}
+</script><script>window.alreadyLoadedView = "HomeView";</script><script>function onLoad() {
+  try {
+      // IE10 warning
+      var htmlElement = document.querySelector("html");
+      if (htmlElement) {
+          if ($.browser.msie && $.browser.edge != true) {
+              if ((window.location.pathname || "").indexOf("web-dev-level") < 0) {
+                  alert("CodeCombat does not support Internet Explorer, but runs on all other major browsers.");
+              }
+          }
+      }
+      // IE8 can't handle this
+      FastClick.attach(document.body);
+  } catch (error) { }
+}</script><script type="text/javascript" charset="utf-8" async="" src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/UsFont-ec7e4f1e9711821954ac.bundle.js.download"></script><style type="text/css">.treema-target-of-copy-paste {
+  transform: translateX(10px); }
+
+.treema-node {
+  transition: 0.1s ease-in-out transform;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  position: relative;
+  font-family: Helvetica;
+  clear: both;
+  border-bottom: 1px solid #ccc;
+  font-size: 13px;
+  cursor: pointer; }
+  .treema-node.treema-root > .treema-row .treema-value, .treema-node.treema-root > .treema-row .treema-type-select {
+    display: none; }
+  .treema-node.treema-open > .treema-children {
+    padding-top: 1px; }
+  .treema-node.treema-root {
+    outline: none; }
+  .treema-node input, .treema-node select {
+    font-size: 13px;
+    font-family: Helvetica; }
+  .treema-node input {
+    margin: -3px 0;
+    width: 200px; }
+  .treema-node .treema-new-prop {
+    margin: -1px 0 10px; }
+
+.treema-type-select, .treema-schema-select {
+  margin-right: 5px;
+  float: left; }
+
+.treema-children {
+  margin-left: 15px;
+  clear: both; }
+
+.treema-add-child {
+  background-color: #eef;
+  border: 1px solid #aaf;
+  cursor: pointer;
+  display: inline-block;
+  margin: 3px 0 10px;
+  padding: 0px 5px;
+  font-weight: bold;
+  position: relative;
+  left: -10px; }
+  .treema-add-child:hover {
+    background-color: #ccf; }
+
+.treema-full > .treema-children > .treema-add-child {
+  display: none; }
+
+.treema-full.treema-open > .treema-children {
+  margin-bottom: 5px; }
+
+.treema-row {
+  padding: 2px 3px 2px 3px; }
+
+.treema-value {
+  cursor: text;
+  display: block;
+  float: left;
+  max-width: 100%;
+  min-width: 50px; }
+
+.treema-key {
+  color: #5353ac;
+  float: left;
+  display: block;
+  cursor: pointer;
+  margin-right: 5px; }
+
+.treema-backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  background-color: rgba(64, 128, 255, 0);
+  pointer-events: none;
+  width: 100%;
+  cursor: pointer; }
+
+.treema-description {
+  float: right;
+  opacity: 0.8;
+  font-size: 11px;
+  line-height: 13px;
+  min-width: 200px;
+  text-align: right;
+  display: none; }
+
+.treema-selected > .treema-row > .treema-description {
+  display: inline; }
+
+.treema-edit + .treema-description {
+  display: inline; }
+
+.treema-selected > .treema-row {
+  background-color: rgba(64, 128, 255, 0.25); }
+
+.treema-error {
+  float: right;
+  color: #8b0000;
+  margin: 2px 10px; }
+
+.treema-has-error {
+  background-color: #ffb6c1;
+  border: 1px solid #8b0000; }
+
+.treema-temp-error {
+  background-color: #ffb6c1;
+  padding: 2px 3px;
+  color: #8b0000;
+  margin: 0 5px;
+  border: 1px solid #8b0000; }
+
+.treema-toggle-hit-area {
+  cursor: pointer;
+  width: 15px;
+  float: left;
+  position: absolute;
+  left: -15px;
+  top: 0;
+  bottom: 0; }
+  .treema-toggle-hit-area:hover {
+    background-color: rgba(128, 128, 128, 0.1); }
+    .treema-toggle-hit-area:hover .treema-toggle {
+      opacity: 1; }
+  .treema-toggle-hit-area .treema-toggle {
+    width: 0;
+    height: 0;
+    opacity: 0.7;
+    position: absolute; }
+    .treema-closed > .treema-toggle-hit-area .treema-toggle {
+      border-top: 6px solid transparent;
+      border-bottom: 6px solid transparent;
+      border-left: 8px solid #666;
+      top: 5px;
+      left: 5px; }
+    .treema-open > .treema-toggle-hit-area .treema-toggle {
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      border-top: 8px solid #666;
+      top: 7px;
+      left: 3px; }
+
+.treema-clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+.treema-shortened {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+.treema-multiline {
+  width: inherit;
+  margin-top: 20px;
+  float: none !important; }
+
+.treema-clipboard-container {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 0px;
+  height: 0px;
+  z-index: 100;
+  display: none;
+  opacity: 0; }
+  .treema-clipboard-container .treema-clipboard {
+    width: 1px;
+    height: 1px;
+    padding: 0px; }
+
+.treema-filter-hidden {
+  display: none; }
+
+.treema-default-stub {
+  opacity: 0.7; }
+
+.treema-string {
+  color: #998500; }
+
+.treema-number {
+  color: #699900; }
+
+.treema-null {
+  color: #524059;
+  font-weight: bold; }
+
+.treema-array {
+  color: #009905;
+  cursor: row-resize; }
+
+.treema-object {
+  color: #008799;
+  cursor: row-resize; }
+
+.treema-boolean {
+  color: #140099;
+  cursor: pointer; }
+  .treema-boolean.treema-edit {
+    background-color: rgba(64, 128, 255, 0.25); }
+  .treema-boolean input {
+    opacity: 0; }
+  .treema-boolean:hover + .treema-description {
+    display: inline; }
+
+.treema-point2d input, .treema-point3d input {
+  width: 40px; }
+
+.treema-search-results {
+  width: 500px;
+  margin-top: 10px;
+  cursor: pointer; }
+
+.treema-search-result-row:hover {
+  background-color: rgba(166, 196, 255, 0.25); }
+
+.treema-search-selected {
+  background-color: rgba(64, 128, 255, 0.25) !important; }
+
+.treema-ace.treema-display .treema-shortened {
+  font-family: monospace; }
+
+.treema-ace .ace_editor {
+  width: 100%;
+  border: 1px solid gray; }
+
+.treema-long-string textarea {
+  width: 100%;
+  height: 300px; }
+
+
+/*# sourceMappingURL=treema.css.map*/</style><style type="text/css">.cc-window{opacity:1;-webkit-transition:opacity 1s ease;transition:opacity 1s ease}.cc-window.cc-invisible{opacity:0}.cc-animate.cc-revoke{-webkit-transition:transform 1s ease;-webkit-transition:-webkit-transform 1s ease;transition:-webkit-transform 1s ease;transition:transform 1s ease;transition:transform 1s ease,-webkit-transform 1s ease}.cc-animate.cc-revoke.cc-top{-webkit-transform:translateY(-2em);transform:translateY(-2em)}.cc-animate.cc-revoke.cc-bottom{-webkit-transform:translateY(2em);transform:translateY(2em)}.cc-animate.cc-revoke.cc-active.cc-top{-webkit-transform:translateY(0);transform:translateY(0)}.cc-animate.cc-revoke.cc-active.cc-bottom{-webkit-transform:translateY(0);transform:translateY(0)}.cc-revoke:hover{-webkit-transform:translateY(0);transform:translateY(0)}.cc-grower{max-height:0;overflow:hidden;-webkit-transition:max-height 1s;transition:max-height 1s}
+.cc-revoke,.cc-window{position:fixed;overflow:hidden;-webkit-box-sizing:border-box;box-sizing:border-box;font-family:Helvetica,Calibri,Arial,sans-serif;font-size:16px;line-height:1.5em;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:nowrap;flex-wrap:nowrap;z-index:9999}.cc-window.cc-static{position:static}.cc-window.cc-floating{padding:2em;max-width:24em;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.cc-window.cc-banner{padding:1em 1.8em;width:100%;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row}.cc-revoke{padding:.5em}.cc-revoke:hover{text-decoration:underline}.cc-header{font-size:18px;font-weight:700}.cc-btn,.cc-close,.cc-link,.cc-revoke{cursor:pointer}.cc-link{opacity:.8;display:inline-block;padding:.2em;text-decoration:underline}.cc-link:hover{opacity:1}.cc-link:active,.cc-link:visited{color:initial}.cc-btn{display:block;padding:.4em .8em;font-size:.9em;font-weight:700;border-width:2px;border-style:solid;text-align:center;white-space:nowrap}.cc-highlight .cc-btn:first-child{background-color:transparent;border-color:transparent}.cc-highlight .cc-btn:first-child:focus,.cc-highlight .cc-btn:first-child:hover{background-color:transparent;text-decoration:underline}.cc-close{display:block;position:absolute;top:.5em;right:.5em;font-size:1.6em;opacity:.9;line-height:.75}.cc-close:focus,.cc-close:hover{opacity:1}
+.cc-revoke.cc-top{top:0;left:3em;border-bottom-left-radius:.5em;border-bottom-right-radius:.5em}.cc-revoke.cc-bottom{bottom:0;left:3em;border-top-left-radius:.5em;border-top-right-radius:.5em}.cc-revoke.cc-left{left:3em;right:unset}.cc-revoke.cc-right{right:3em;left:unset}.cc-top{top:1em}.cc-left{left:1em}.cc-right{right:1em}.cc-bottom{bottom:1em}.cc-floating>.cc-link{margin-bottom:1em}.cc-floating .cc-message{display:block;margin-bottom:1em}.cc-window.cc-floating .cc-compliance{-webkit-box-flex:1;-ms-flex:1 0 auto;flex:1 0 auto}.cc-window.cc-banner{-webkit-box-align:center;-ms-flex-align:center;align-items:center}.cc-banner.cc-top{left:0;right:0;top:0}.cc-banner.cc-bottom{left:0;right:0;bottom:0}.cc-banner .cc-message{display:block;-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto;max-width:100%;margin-right:1em}.cc-compliance{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-ms-flex-line-pack:justify;align-content:space-between}.cc-floating .cc-compliance>.cc-btn{-webkit-box-flex:1;-ms-flex:1;flex:1}.cc-btn+.cc-btn{margin-left:.5em}
+@media print{.cc-revoke,.cc-window{display:none}}@media screen and (max-width:900px){.cc-btn{white-space:normal}}@media screen and (max-width:414px) and (orientation:portrait),screen and (max-width:736px) and (orientation:landscape){.cc-window.cc-top{top:0}.cc-window.cc-bottom{bottom:0}.cc-window.cc-banner,.cc-window.cc-floating,.cc-window.cc-left,.cc-window.cc-right{left:0;right:0}.cc-window.cc-banner{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.cc-window.cc-banner .cc-compliance{-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto}.cc-window.cc-floating{max-width:none}.cc-window .cc-message{margin-bottom:1em}.cc-window.cc-banner{-webkit-box-align:unset;-ms-flex-align:unset;align-items:unset}.cc-window.cc-banner .cc-message{margin-right:0}}
+.cc-floating.cc-theme-classic{padding:1.2em;border-radius:5px}.cc-floating.cc-type-info.cc-theme-classic .cc-compliance{text-align:center;display:inline;-webkit-box-flex:0;-ms-flex:none;flex:none}.cc-theme-classic .cc-btn{border-radius:5px}.cc-theme-classic .cc-btn:last-child{min-width:140px}.cc-floating.cc-type-info.cc-theme-classic .cc-btn{display:inline-block}
+.cc-theme-edgeless.cc-window{padding:0}.cc-floating.cc-theme-edgeless .cc-message{margin:2em;margin-bottom:1.5em}.cc-banner.cc-theme-edgeless .cc-btn{margin:0;padding:.8em 1.8em;height:100%}.cc-banner.cc-theme-edgeless .cc-message{margin-left:1em}.cc-floating.cc-theme-edgeless .cc-btn+.cc-btn{margin-left:0}</style><style type="text/css">div.fancy-select {
+	position: relative;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #46565D;
+}
+
+div.fancy-select.disabled {
+	opacity: 0.5;
+}
+
+div.fancy-select select:focus + div.trigger {
+	box-shadow: 0 0 0 2px #4B5468;
+}
+
+div.fancy-select select:focus + div.trigger.open {
+	box-shadow: none;
+}
+
+div.fancy-select div.trigger {
+	border-radius: 4px;
+	cursor: pointer;
+	padding: 10px 24px 9px 9px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: relative;
+	background: #99A5BE;
+	border: 1px solid #99A5BE;
+	border-top-color: #A5B2CB;
+	color: #4B5468;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+	width: 200px;
+
+	transition: all 240ms ease-out;
+	-webkit-transition: all 240ms ease-out;
+	-moz-transition: all 240ms ease-out;
+	-ms-transition: all 240ms ease-out;
+	-o-transition: all 240ms ease-out;
+}
+
+div.fancy-select div.trigger:after {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 0;
+	height: 0;
+	border: 5px solid transparent;
+	border-top-color: #4B5468;
+	top: 20px;
+	right: 9px;
+}
+
+div.fancy-select div.trigger.open {
+	background: #4A5368;
+	border: 1px solid #475062;
+	color: #7A8498;
+	box-shadow: none;
+}
+
+div.fancy-select div.trigger.open:after {
+	border-top-color: #7A8498;
+}
+
+div.fancy-select ul.options {
+	list-style: none;
+	margin: 0;
+	position: absolute;
+	top: 40px;
+	left: 0;
+	visibility: hidden;
+	opacity: 0;
+	z-index: 50;
+	max-height: 200px;
+	overflow: auto;
+	background: #62C8BF;
+	border-radius: 4px;
+	border-top: 1px solid #7DD8D2;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+	min-width: 200px;
+
+	transition: opacity 300ms ease-out, top 300ms ease-out, visibility 300ms ease-out;
+	-webkit-transition: opacity 300ms ease-out, top 300ms ease-out, visibility 300ms ease-out;
+	-moz-transition: opacity 300ms ease-out, top 300ms ease-out, visibility 300ms ease-out;
+	-ms-transition: opacity 300ms ease-out, top 300ms ease-out, visibility 300ms ease-out;
+	-o-transition: opacity 300ms ease-out, top 300ms ease-out, visibility 300ms ease-out;
+}
+
+div.fancy-select ul.options.open {
+	visibility: visible;
+	top: 50px;
+	opacity: 1;
+
+	/* have to use a non-visibility transition to prevent this iOS issue (bug?): */
+	/*http://stackoverflow.com/questions/10736478/css-animation-visibility-visible-works-on-chrome-and-safari-but-not-on-ios*/
+	transition: opacity 300ms ease-out, top 300ms ease-out;
+	-webkit-transition: opacity 300ms ease-out, top 300ms ease-out;
+	-moz-transition: opacity 300ms ease-out, top 300ms ease-out;
+	-ms-transition: opacity 300ms ease-out, top 300ms ease-out;
+	-o-transition: opacity 300ms ease-out, top 300ms ease-out;
+}
+
+div.fancy-select ul.options.overflowing {
+	top: auto;
+	bottom: 40px;
+
+	transition: opacity 300ms ease-out, bottom 300ms ease-out, visibility 300ms ease-out;
+	-webkit-transition: opacity 300ms ease-out, bottom 300ms ease-out, visibility 300ms ease-out;
+	-moz-transition: opacity 300ms ease-out, bottom 300ms ease-out, visibility 300ms ease-out;
+	-ms-transition: opacity 300ms ease-out, bottom 300ms ease-out, visibility 300ms ease-out;
+	-o-transition: opacity 300ms ease-out, bottom 300ms ease-out, visibility 300ms ease-out;
+}
+
+div.fancy-select ul.options.overflowing.open {
+	top: auto;
+	bottom: 50px;
+
+	transition: opacity 300ms ease-out, bottom 300ms ease-out;
+	-webkit-transition: opacity 300ms ease-out, bottom 300ms ease-out;
+	-moz-transition: opacity 300ms ease-out, bottom 300ms ease-out;
+	-ms-transition: opacity 300ms ease-out, bottom 300ms ease-out;
+	-o-transition: opacity 300ms ease-out, bottom 300ms ease-out;
+}
+
+div.fancy-select ul.options li {
+	padding: 8px 12px;
+	color: #2B8686;
+	cursor: pointer;
+	white-space: nowrap;
+
+	transition: all 150ms ease-out;
+	-webkit-transition: all 150ms ease-out;
+	-moz-transition: all 150ms ease-out;
+	-ms-transition: all 150ms ease-out;
+	-o-transition: all 150ms ease-out;
+}
+
+div.fancy-select ul.options li.selected {
+	background: rgba(43,134,134,0.3);
+	color: rgba(255,255,255,0.75);
+}
+
+div.fancy-select ul.options li.hover {
+	color: #fff;
+}</style><style type="text/css">/** initial setup **/
+.nano {
+  position : relative;
+  width    : 100%;
+  height   : 100%;
+  overflow : hidden;
+}
+.nano > .nano-content {
+  position      : absolute;
+  overflow      : scroll;
+  overflow-x    : hidden;
+  top           : 0;
+  right         : 0;
+  bottom        : 0;
+  left          : 0;
+}
+.nano > .nano-content:focus {
+  outline: thin dotted;
+}
+.nano > .nano-content::-webkit-scrollbar {
+  display: none;
+}
+.has-scrollbar > .nano-content::-webkit-scrollbar {
+  display: block;
+}
+.nano > .nano-pane {
+  background : rgba(0,0,0,.25);
+  position   : absolute;
+  width      : 10px;
+  right      : 0;
+  top        : 0;
+  bottom     : 0;
+  visibility : hidden\9; /* Target only IE7 and IE8 with this hack */
+  opacity    : .01;
+  -webkit-transition    : .2s;
+  -moz-transition       : .2s;
+  -o-transition         : .2s;
+  transition            : .2s;
+  -moz-border-radius    : 5px;
+  -webkit-border-radius : 5px;
+  border-radius         : 5px;
+}
+.nano > .nano-pane > .nano-slider {
+  background: #444;
+  background: rgba(0,0,0,.5);
+  position              : relative;
+  margin                : 0 1px;
+  -moz-border-radius    : 3px;
+  -webkit-border-radius : 3px;
+  border-radius         : 3px;
+}
+.nano:hover > .nano-pane, .nano-pane.active, .nano-pane.flashed {
+  visibility : visible\9; /* Target only IE7 and IE8 with this hack */
+  opacity    : 0.99;
+}
+</style><script src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/esper.modern.js.download"></script><style type="text/css">.resize-observer[data-v-b329ee4c]{position:absolute;top:0;left:0;z-index:-1;width:100%;height:100%;border:none;background-color:transparent;pointer-events:none;display:block;overflow:hidden;opacity:0}.resize-observer[data-v-b329ee4c] object{display:block;position:absolute;top:0;left:0;height:100%;width:100%;overflow:hidden;pointer-events:none;z-index:-1}</style><style type="text/css">@import url(//fonts.googleapis.com/css?family=Arvo:400,700);</style><style type="text/css">@import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,700&subset=latin,latin-ext,cyrillic,vietnamese,cyrillic-ext,greek-ext,greek);</style><style type="text/css">@import url(//fonts.googleapis.com/css?family=Open+Sans+Condensed:700&subset=latin,latin-ext,cyrillic-ext,greek-ext,greek,vietnamese,cyrillic);</style><style type="text/css">@import url(//fonts.googleapis.com/css?family=Arvo|Roboto+Mono|Work+Sans&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese);</style><style type="text/css">
+</style><script src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/f(1).txt"></script><style type="text/css">
+.hide[data-v-682ba890] {
+    display: none;
+}
+</style><style type="text/css">
+.teacher-row[data-v-14a9d754] {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 15px;
+
+    height: 100px;
+
+    line-height: normal;
+}
+.teacher-row[data-v-14a9d754]:nth-child(2n) {
+    background-color: #F5F5F5;
+}
+.teacher-row[data-v-14a9d754]:nth-child(2n + 1) {
+    background-color: #EBEBEB;
+}
+.teacher-info[data-v-14a9d754] {
+    width: 25%;
+    flex-grow: 0;
+    flex-shrink: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+.teacher-email[data-v-14a9d754] {
+    display: block;
+    color: #000;
+
+    text-decoration: underline;
+    font-size: 18px
+}
+.last-login[data-v-14a9d754] {
+    font-size: 14px
+}
+.stats[data-v-14a9d754] {
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+
+    list-style: none;
+
+    padding: 0;
+}
+.stats li[data-v-14a9d754] {
+    text-align: center;
+    font-size: 12px;
+
+    width: 140px
+}
+.stats li span[data-v-14a9d754] {
+    display: block;
+
+    font-size: 24px;
+}
+.dashboard-link[data-v-14a9d754] {
+    margin-left: auto;
+    color: #999;
+
+    line-height: normal;
+}
+.dashboard-link[data-v-14a9d754]:hover {
+    text-decoration: none;
+}
+.stat-hidden[data-v-14a9d754] {
+    visibility: hidden;
+}
+</style><style type="text/css">
+.teacher-list[data-v-069a4a67] {
+    margin: 0;
+    margin-top: 15px;
+
+    padding: 0;
+
+    list-style: none;
+}
+.teacher-list .group-title[data-v-069a4a67] {
+    margin-bottom: 15px;
+}
+.school-admin-details[data-v-069a4a67] {
+    margin-top: 35px;
+
+    text-align: center;
+
+    font-size: 13px;
+    color: #BBB;
+    line-height: 20px;
+}
+.no-teachers[data-v-069a4a67] {
+    padding: 50px;
+    text-align: center;
+}
+</style><style type="text/css">
+.progress-dot[data-v-4ce6553c] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 10px;
+
+    width: 62px;
+    height: 62px;
+
+    border-radius: 50%;
+
+    color: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+
+    line-height: 20px;
+
+    background-color: rgb(153, 153, 153);
+}
+.progress-dot.started[data-v-4ce6553c] {
+    background-color: #F2BE19;
+}
+.progress-dot.completed[data-v-4ce6553c] {
+    background-color: #20572B;
+}
+</style><style type="text/css">
+.course-dot-progress-tooltip {
+    z-index: 2000;
+}
+.course-dot-progress-tooltip .tooltip-inner {
+    background-color: #FFF;
+    color: #0E4C60;
+    border: 1px solid #0E4C60;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 15px;
+    line-height: 1.4;
+}
+.course-dot-progress-tooltip .arrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    position: absolute;
+    margin: 5px;
+    border-color: #0E4C60;
+
+    border-width: 5px 10px 0 10px;
+    border-left-color: transparent !important;
+    border-right-color: transparent !important;
+    border-bottom-color: transparent !important;
+    bottom: -5px;
+    left: calc(50% - 10px);
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.course-dot-progress-tooltip .arrow::after {
+    content: ' ';
+
+    width: 0;
+    height: 0;
+    border-style: solid;
+    position: absolute;
+    border-color: #FFF;
+
+    border-width: 5px 10px 0 10px;
+    border-left-color: transparent !important;
+    border-right-color: transparent !important;
+    border-bottom-color: transparent !important;
+    top: -6px;
+    left: calc(50% - 10px);
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+</style><style type="text/css">
+li.classroom-list-row[data-v-b52e5f7e] {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 20px;
+}
+li.classroom-list-row[data-v-b52e5f7e]:nth-child(2n) {
+    background-color: #F5F5F5;
+}
+li.classroom-list-row[data-v-b52e5f7e]:nth-child(2n + 1) {
+    background-color: #EBEBEB;
+}
+li.classroom-list-row .class-information[data-v-b52e5f7e] {
+    width: 33%;
+    margin-bottom: auto;
+}
+li.classroom-list-row .class-information h4[data-v-b52e5f7e] {
+    font-weight: 600;
+}
+li.classroom-list-row .class-information .class-summary[data-v-b52e5f7e] {
+    flex-shrink: 0;
+
+    font-size: 14px;
+    height: 100%;
+}
+li.classroom-list-row .class-information .class-summary span[data-v-b52e5f7e] {
+    margin-right: 10px;
+}
+li.classroom-list-row .class-information .class-summary span[data-v-b52e5f7e]:last-of-type {
+    margin-right: 0;
+}
+ul.progress-dots[data-v-b52e5f7e] {
+    flex-grow: 1;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    list-style-type: none;
+}
+li.classroom-list-row .classroom-link[data-v-b52e5f7e] {
+    margin-left: auto;
+    color: #999;
+
+    line-height: normal;
+    font-size: 35px;
+}
+li.classroom-list-row .classroom-link[data-v-b52e5f7e]:hover {
+    text-decoration: none;
+}
+</style><style type="text/css">
+ul.teacher-list[data-v-71dca030] {
+    margin: 0;
+    padding: 0;
+}
+</style><style type="text/css">
+*[data-v-e9bd3368] {
+    color: #065e73;
+}
+li[data-v-e9bd3368] {
+    display: inline;
+}
+li[data-v-e9bd3368]:not(:first-child):before {
+    color: #000;
+    content: " > ";
+}
+</style><style type="text/css">
+.title[data-v-44938d10] {
+     margin-bottom: 20px;
+}
+</style><style type="text/css">
+svg path[data-v-69bcb9ed], svg circle[data-v-69bcb9ed] {
+  fill: transparent;
+}
+</style><style id="ace_editor.css">.ace_editor {position: relative;overflow: hidden;font: 12px/normal 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;direction: ltr;text-align: left;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}.ace_scroller {position: absolute;overflow: hidden;top: 0;bottom: 0;background-color: inherit;-ms-user-select: none;-moz-user-select: none;-webkit-user-select: none;user-select: none;cursor: text;}.ace_content {position: absolute;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;min-width: 100%;}.ace_dragging .ace_scroller:before{position: absolute;top: 0;left: 0;right: 0;bottom: 0;content: '';background: rgba(250, 250, 250, 0.01);z-index: 1000;}.ace_dragging.ace_dark .ace_scroller:before{background: rgba(0, 0, 0, 0.01);}.ace_selecting, .ace_selecting * {cursor: text !important;}.ace_gutter {position: absolute;overflow : hidden;width: auto;top: 0;bottom: 0;left: 0;cursor: default;z-index: 4;-ms-user-select: none;-moz-user-select: none;-webkit-user-select: none;user-select: none;}.ace_gutter-active-line {position: absolute;left: 0;right: 0;}.ace_scroller.ace_scroll-left {box-shadow: 17px 0 16px -16px rgba(0, 0, 0, 0.4) inset;}.ace_gutter-cell {padding-left: 19px;padding-right: 6px;background-repeat: no-repeat;}.ace_gutter-cell.ace_error {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAABOFBMVEX/////////QRswFAb/Ui4wFAYwFAYwFAaWGAfDRymzOSH/PxswFAb/SiUwFAYwFAbUPRvjQiDllog5HhHdRybsTi3/Tyv9Tir+Syj/UC3////XurebMBIwFAb/RSHbPx/gUzfdwL3kzMivKBAwFAbbvbnhPx66NhowFAYwFAaZJg8wFAaxKBDZurf/RB6mMxb/SCMwFAYwFAbxQB3+RB4wFAb/Qhy4Oh+4QifbNRcwFAYwFAYwFAb/QRzdNhgwFAYwFAbav7v/Uy7oaE68MBK5LxLewr/r2NXewLswFAaxJw4wFAbkPRy2PyYwFAaxKhLm1tMwFAazPiQwFAaUGAb/QBrfOx3bvrv/VC/maE4wFAbRPBq6MRO8Qynew8Dp2tjfwb0wFAbx6eju5+by6uns4uH9/f36+vr/GkHjAAAAYnRSTlMAGt+64rnWu/bo8eAA4InH3+DwoN7j4eLi4xP99Nfg4+b+/u9B/eDs1MD1mO7+4PHg2MXa347g7vDizMLN4eG+Pv7i5evs/v79yu7S3/DV7/498Yv24eH+4ufQ3Ozu/v7+y13sRqwAAADLSURBVHjaZc/XDsFgGIBhtDrshlitmk2IrbHFqL2pvXf/+78DPokj7+Fz9qpU/9UXJIlhmPaTaQ6QPaz0mm+5gwkgovcV6GZzd5JtCQwgsxoHOvJO15kleRLAnMgHFIESUEPmawB9ngmelTtipwwfASilxOLyiV5UVUyVAfbG0cCPHig+GBkzAENHS0AstVF6bacZIOzgLmxsHbt2OecNgJC83JERmePUYq8ARGkJx6XtFsdddBQgZE2nPR6CICZhawjA4Fb/chv+399kfR+MMMDGOQAAAABJRU5ErkJggg==");background-repeat: no-repeat;background-position: 2px center;}.ace_gutter-cell.ace_warning {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAmVBMVEX///8AAAD///8AAAAAAABPSzb/5sAAAAB/blH/73z/ulkAAAAAAAD85pkAAAAAAAACAgP/vGz/rkDerGbGrV7/pkQICAf////e0IsAAAD/oED/qTvhrnUAAAD/yHD/njcAAADuv2r/nz//oTj/p064oGf/zHAAAAA9Nir/tFIAAAD/tlTiuWf/tkIAAACynXEAAAAAAAAtIRW7zBpBAAAAM3RSTlMAABR1m7RXO8Ln31Z36zT+neXe5OzooRDfn+TZ4p3h2hTf4t3k3ucyrN1K5+Xaks52Sfs9CXgrAAAAjklEQVR42o3PbQ+CIBQFYEwboPhSYgoYunIqqLn6/z8uYdH8Vmdnu9vz4WwXgN/xTPRD2+sgOcZjsge/whXZgUaYYvT8QnuJaUrjrHUQreGczuEafQCO/SJTufTbroWsPgsllVhq3wJEk2jUSzX3CUEDJC84707djRc5MTAQxoLgupWRwW6UB5fS++NV8AbOZgnsC7BpEAAAAABJRU5ErkJggg==");background-position: 2px center;}.ace_gutter-cell.ace_info {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAAAAAA6mKC9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAJ0Uk5TAAB2k804AAAAPklEQVQY02NgIB68QuO3tiLznjAwpKTgNyDbMegwisCHZUETUZV0ZqOquBpXj2rtnpSJT1AEnnRmL2OgGgAAIKkRQap2htgAAAAASUVORK5CYII=");background-position: 2px center;}.ace_dark .ace_gutter-cell.ace_info {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAJFBMVEUAAAChoaGAgIAqKiq+vr6tra1ZWVmUlJSbm5s8PDxubm56enrdgzg3AAAAAXRSTlMAQObYZgAAAClJREFUeNpjYMAPdsMYHegyJZFQBlsUlMFVCWUYKkAZMxZAGdxlDMQBAG+TBP4B6RyJAAAAAElFTkSuQmCC");}.ace_scrollbar {position: absolute;right: 0;bottom: 0;z-index: 6;}.ace_scrollbar-inner {position: absolute;cursor: text;left: 0;top: 0;}.ace_scrollbar-v{overflow-x: hidden;overflow-y: scroll;top: 0;}.ace_scrollbar-h {overflow-x: scroll;overflow-y: hidden;left: 0;}.ace_print-margin {position: absolute;height: 100%;}.ace_text-input {position: absolute;z-index: 0;width: 0.5em;height: 1em;opacity: 0;background: transparent;-moz-appearance: none;appearance: none;border: none;resize: none;outline: none;overflow: hidden;font: inherit;padding: 0 1px;margin: 0 -1px;text-indent: -1em;-ms-user-select: text;-moz-user-select: text;-webkit-user-select: text;user-select: text;white-space: pre!important;}.ace_text-input.ace_composition {background: inherit;color: inherit;z-index: 1000;opacity: 1;text-indent: 0;}.ace_layer {z-index: 1;position: absolute;overflow: hidden;word-wrap: normal;white-space: pre;height: 100%;width: 100%;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;pointer-events: none;}.ace_gutter-layer {position: relative;width: auto;text-align: right;pointer-events: auto;}.ace_text-layer {font: inherit !important;}.ace_cjk {display: inline-block;text-align: center;}.ace_cursor-layer {z-index: 4;}.ace_cursor {z-index: 4;position: absolute;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;border-left: 2px solid;transform: translatez(0);}.ace_multiselect .ace_cursor {border-left-width: 1px;}.ace_slim-cursors .ace_cursor {border-left-width: 1px;}.ace_overwrite-cursors .ace_cursor {border-left-width: 0;border-bottom: 1px solid;}.ace_hidden-cursors .ace_cursor {opacity: 0.2;}.ace_smooth-blinking .ace_cursor {-webkit-transition: opacity 0.18s;transition: opacity 0.18s;}.ace_marker-layer .ace_step, .ace_marker-layer .ace_stack {position: absolute;z-index: 3;}.ace_marker-layer .ace_selection {position: absolute;z-index: 5;}.ace_marker-layer .ace_bracket {position: absolute;z-index: 6;}.ace_marker-layer .ace_active-line {position: absolute;z-index: 2;}.ace_marker-layer .ace_selected-word {position: absolute;z-index: 4;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}.ace_line .ace_fold {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;display: inline-block;height: 11px;margin-top: -2px;vertical-align: middle;background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAJCAYAAADU6McMAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAJpJREFUeNpi/P//PwOlgAXGYGRklAVSokD8GmjwY1wasKljQpYACtpCFeADcHVQfQyMQAwzwAZI3wJKvCLkfKBaMSClBlR7BOQikCFGQEErIH0VqkabiGCAqwUadAzZJRxQr/0gwiXIal8zQQPnNVTgJ1TdawL0T5gBIP1MUJNhBv2HKoQHHjqNrA4WO4zY0glyNKLT2KIfIMAAQsdgGiXvgnYAAAAASUVORK5CYII="),url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAA3CAYAAADNNiA5AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAACJJREFUeNpi+P//fxgTAwPDBxDxD078RSX+YeEyDFMCIMAAI3INmXiwf2YAAAAASUVORK5CYII=");background-repeat: no-repeat, repeat-x;background-position: center center, top left;color: transparent;border: 1px solid black;border-radius: 2px;cursor: pointer;pointer-events: auto;}.ace_dark .ace_fold {}.ace_fold:hover{background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAJCAYAAADU6McMAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAJpJREFUeNpi/P//PwOlgAXGYGRklAVSokD8GmjwY1wasKljQpYACtpCFeADcHVQfQyMQAwzwAZI3wJKvCLkfKBaMSClBlR7BOQikCFGQEErIH0VqkabiGCAqwUadAzZJRxQr/0gwiXIal8zQQPnNVTgJ1TdawL0T5gBIP1MUJNhBv2HKoQHHjqNrA4WO4zY0glyNKLT2KIfIMAAQsdgGiXvgnYAAAAASUVORK5CYII="),url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAA3CAYAAADNNiA5AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAACBJREFUeNpi+P//fz4TAwPDZxDxD5X4i5fLMEwJgAADAEPVDbjNw87ZAAAAAElFTkSuQmCC");}.ace_tooltip {background-color: #FFF;background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.1));background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.1));border: 1px solid gray;border-radius: 1px;box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);color: black;max-width: 100%;padding: 3px 4px;position: fixed;z-index: 999999;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;cursor: default;white-space: pre;word-wrap: break-word;line-height: normal;font-style: normal;font-weight: normal;letter-spacing: normal;pointer-events: none;}.ace_folding-enabled > .ace_gutter-cell {padding-right: 13px;}.ace_fold-widget {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;margin: 0 -12px 0 1px;display: none;width: 11px;vertical-align: top;background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAANElEQVR42mWKsQ0AMAzC8ixLlrzQjzmBiEjp0A6WwBCSPgKAXoLkqSot7nN3yMwR7pZ32NzpKkVoDBUxKAAAAABJRU5ErkJggg==");background-repeat: no-repeat;background-position: center;border-radius: 3px;border: 1px solid transparent;cursor: pointer;}.ace_folding-enabled .ace_fold-widget {display: inline-block;   }.ace_fold-widget.ace_end {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAANElEQVR42m3HwQkAMAhD0YzsRchFKI7sAikeWkrxwScEB0nh5e7KTPWimZki4tYfVbX+MNl4pyZXejUO1QAAAABJRU5ErkJggg==");}.ace_fold-widget.ace_closed {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAGCAYAAAAG5SQMAAAAOUlEQVR42jXKwQkAMAgDwKwqKD4EwQ26sSOkVWjgIIHAzPiCgaqiqnJHZnKICBERHN194O5b9vbLuAVRL+l0YWnZAAAAAElFTkSuQmCCXA==");}.ace_fold-widget:hover {border: 1px solid rgba(0, 0, 0, 0.3);background-color: rgba(255, 255, 255, 0.2);box-shadow: 0 1px 1px rgba(255, 255, 255, 0.7);}.ace_fold-widget:active {border: 1px solid rgba(0, 0, 0, 0.4);background-color: rgba(0, 0, 0, 0.05);box-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);}.ace_dark .ace_fold-widget {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHklEQVQIW2P4//8/AzoGEQ7oGCaLLAhWiSwB146BAQCSTPYocqT0AAAAAElFTkSuQmCC");}.ace_dark .ace_fold-widget.ace_end {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAH0lEQVQIW2P4//8/AxQ7wNjIAjDMgC4AxjCVKBirIAAF0kz2rlhxpAAAAABJRU5ErkJggg==");}.ace_dark .ace_fold-widget.ace_closed {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAFCAYAAACAcVaiAAAAHElEQVQIW2P4//+/AxAzgDADlOOAznHAKgPWAwARji8UIDTfQQAAAABJRU5ErkJggg==");}.ace_dark .ace_fold-widget:hover {box-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);background-color: rgba(255, 255, 255, 0.1);}.ace_dark .ace_fold-widget:active {box-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);}.ace_fold-widget.ace_invalid {background-color: #FFB4B4;border-color: #DE5555;}.ace_fade-fold-widgets .ace_fold-widget {-webkit-transition: opacity 0.4s ease 0.05s;transition: opacity 0.4s ease 0.05s;opacity: 0;}.ace_fade-fold-widgets:hover .ace_fold-widget {-webkit-transition: opacity 0.05s ease 0.05s;transition: opacity 0.05s ease 0.05s;opacity:1;}.ace_underline {text-decoration: underline;}.ace_bold {font-weight: bold;}.ace_nobold .ace_bold {font-weight: normal;}.ace_italic {font-style: italic;}.ace_error-marker {background-color: rgba(255, 0, 0,0.2);position: absolute;z-index: 9;}.ace_highlight-marker {background-color: rgba(255, 255, 0,0.2);position: absolute;z-index: 8;}.ace_br1 {border-top-left-radius    : 3px;}.ace_br2 {border-top-right-radius   : 3px;}.ace_br3 {border-top-left-radius    : 3px; border-top-right-radius:    3px;}.ace_br4 {border-bottom-right-radius: 3px;}.ace_br5 {border-top-left-radius    : 3px; border-bottom-right-radius: 3px;}.ace_br6 {border-top-right-radius   : 3px; border-bottom-right-radius: 3px;}.ace_br7 {border-top-left-radius    : 3px; border-top-right-radius:    3px; border-bottom-right-radius: 3px;}.ace_br8 {border-bottom-left-radius : 3px;}.ace_br9 {border-top-left-radius    : 3px; border-bottom-left-radius:  3px;}.ace_br10{border-top-right-radius   : 3px; border-bottom-left-radius:  3px;}.ace_br11{border-top-left-radius    : 3px; border-top-right-radius:    3px; border-bottom-left-radius:  3px;}.ace_br12{border-bottom-right-radius: 3px; border-bottom-left-radius:  3px;}.ace_br13{border-top-left-radius    : 3px; border-bottom-right-radius: 3px; border-bottom-left-radius:  3px;}.ace_br14{border-top-right-radius   : 3px; border-bottom-right-radius: 3px; border-bottom-left-radius:  3px;}.ace_br15{border-top-left-radius    : 3px; border-top-right-radius:    3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px;}.ace_text-input-ios {position: absolute !important;top: -100000px !important;left: -100000px !important;}
+/*# sourceURL=ace/css/ace_editor.css */</style><style id="ace-tm">.ace-tm .ace_gutter {background: #f0f0f0;color: #333;}.ace-tm .ace_print-margin {width: 1px;background: #e8e8e8;}.ace-tm .ace_fold {background-color: #6B72E6;}.ace-tm {background-color: #FFFFFF;color: black;}.ace-tm .ace_cursor {color: black;}.ace-tm .ace_invisible {color: rgb(191, 191, 191);}.ace-tm .ace_storage,.ace-tm .ace_keyword {color: blue;}.ace-tm .ace_constant {color: rgb(197, 6, 11);}.ace-tm .ace_constant.ace_buildin {color: rgb(88, 72, 246);}.ace-tm .ace_constant.ace_language {color: rgb(88, 92, 246);}.ace-tm .ace_constant.ace_library {color: rgb(6, 150, 14);}.ace-tm .ace_invalid {background-color: rgba(255, 0, 0, 0.1);color: red;}.ace-tm .ace_support.ace_function {color: rgb(60, 76, 114);}.ace-tm .ace_support.ace_constant {color: rgb(6, 150, 14);}.ace-tm .ace_support.ace_type,.ace-tm .ace_support.ace_class {color: rgb(109, 121, 222);}.ace-tm .ace_keyword.ace_operator {color: rgb(104, 118, 135);}.ace-tm .ace_string {color: rgb(3, 106, 7);}.ace-tm .ace_comment {color: rgb(76, 136, 107);}.ace-tm .ace_comment.ace_doc {color: rgb(0, 102, 255);}.ace-tm .ace_comment.ace_doc.ace_tag {color: rgb(128, 159, 191);}.ace-tm .ace_constant.ace_numeric {color: rgb(0, 0, 205);}.ace-tm .ace_variable {color: rgb(49, 132, 149);}.ace-tm .ace_xml-pe {color: rgb(104, 104, 91);}.ace-tm .ace_entity.ace_name.ace_function {color: #0000A2;}.ace-tm .ace_heading {color: rgb(12, 7, 255);}.ace-tm .ace_list {color:rgb(185, 6, 144);}.ace-tm .ace_meta.ace_tag {color:rgb(0, 22, 142);}.ace-tm .ace_string.ace_regex {color: rgb(255, 0, 0)}.ace-tm .ace_marker-layer .ace_selection {background: rgb(181, 213, 255);}.ace-tm.ace_multiselect .ace_selection.ace_start {box-shadow: 0 0 3px 0px white;}.ace-tm .ace_marker-layer .ace_step {background: rgb(252, 255, 0);}.ace-tm .ace_marker-layer .ace_stack {background: rgb(164, 229, 101);}.ace-tm .ace_marker-layer .ace_bracket {margin: -1px 0 0 -1px;border: 1px solid rgb(192, 192, 192);}.ace-tm .ace_marker-layer .ace_active-line {background: rgba(0, 0, 0, 0.07);}.ace-tm .ace_gutter-active-line {background-color : #dcdcdc;}.ace-tm .ace_marker-layer .ace_selected-word {background: rgb(250, 250, 255);border: 1px solid rgb(200, 200, 250);}.ace-tm .ace_indent-guide {background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAE0lEQVQImWP4////f4bLly//BwAmVgd1/w11/gAAAABJRU5ErkJggg==") right repeat-y;}
+/*# sourceURL=ace/css/ace-tm */</style><style>    .error_widget_wrapper {        background: inherit;        color: inherit;        border:none    }    .error_widget {        border-top: solid 2px;        border-bottom: solid 2px;        margin: 5px 0;        padding: 10px 40px;        white-space: pre-wrap;    }    .error_widget.ace_error, .error_widget_arrow.ace_error{        border-color: #ff5a5a    }    .error_widget.ace_warning, .error_widget_arrow.ace_warning{        border-color: #F1D817    }    .error_widget.ace_info, .error_widget_arrow.ace_info{        border-color: #5a5a5a    }    .error_widget.ace_ok, .error_widget_arrow.ace_ok{        border-color: #5aaa5a    }    .error_widget_arrow {        position: absolute;        border: solid 5px;        border-top-color: transparent!important;        border-right-color: transparent!important;        border-left-color: transparent!important;        top: -5px;    }</style><style type="text/css">
+.slug[data-v-e7d9be46] {
+  color: #333333
+}
+.id[data-v-e7d9be46] {
+  font-size: 0.7em
+}
+</style><style type="text/css">/*! jQuery UI - v1.11.1 - 2014-09-20
+* http://jqueryui.com
+* Includes: core.css, datepicker.css, draggable.css, resizable.css, sortable.css, autocomplete.css, menu.css, slider.css, theme.css
+* To view and modify this theme, visit http://jqueryui.com/themeroller/?ffDefault=Trebuchet%20MS%2CTahoma%2CVerdana%2CArial%2Csans-serif&fwDefault=bold&fsDefault=1.1em&cornerRadius=4px&bgColorHeader=f6a828&bgTextureHeader=gloss_wave&bgImgOpacityHeader=35&borderColorHeader=e78f08&fcHeader=ffffff&iconColorHeader=ffffff&bgColorContent=eeeeee&bgTextureContent=highlight_soft&bgImgOpacityContent=100&borderColorContent=dddddd&fcContent=333333&iconColorContent=222222&bgColorDefault=f6f6f6&bgTextureDefault=glass&bgImgOpacityDefault=100&borderColorDefault=cccccc&fcDefault=1c94c4&iconColorDefault=ef8c08&bgColorHover=fdf5ce&bgTextureHover=glass&bgImgOpacityHover=100&borderColorHover=fbcb09&fcHover=c77405&iconColorHover=ef8c08&bgColorActive=ffffff&bgTextureActive=glass&bgImgOpacityActive=65&borderColorActive=fbd850&fcActive=eb8f00&iconColorActive=ef8c08&bgColorHighlight=ffe45c&bgTextureHighlight=highlight_soft&bgImgOpacityHighlight=75&borderColorHighlight=fed22f&fcHighlight=363636&iconColorHighlight=228ef1&bgColorError=b81900&bgTextureError=diagonals_thick&bgImgOpacityError=18&borderColorError=cd0a0a&fcError=ffffff&iconColorError=ffd27a&bgColorOverlay=666666&bgTextureOverlay=diagonals_thick&bgImgOpacityOverlay=20&opacityOverlay=50&bgColorShadow=000000&bgTextureShadow=flat&bgImgOpacityShadow=10&opacityShadow=20&thicknessShadow=5px&offsetTopShadow=-5px&offsetLeftShadow=-5px&cornerRadiusShadow=5px
+* Copyright 2014 jQuery Foundation and other contributors; Licensed MIT */
+
+/* Layout helpers
+----------------------------------*/
+.ui-helper-hidden {
+	display: none;
+}
+.ui-helper-hidden-accessible {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+.ui-helper-reset {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	line-height: 1.3;
+	text-decoration: none;
+	font-size: 100%;
+	list-style: none;
+}
+.ui-helper-clearfix:before,
+.ui-helper-clearfix:after {
+	content: "";
+	display: table;
+	border-collapse: collapse;
+}
+.ui-helper-clearfix:after {
+	clear: both;
+}
+.ui-helper-clearfix {
+	min-height: 0; /* support: IE7 */
+}
+.ui-helper-zfix {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	opacity: 0;
+	filter:Alpha(Opacity=0); /* support: IE8 */
+}
+
+.ui-front {
+	z-index: 100;
+}
+
+
+/* Interaction Cues
+----------------------------------*/
+.ui-state-disabled {
+	cursor: default !important;
+}
+
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+.ui-icon {
+	display: block;
+	text-indent: -99999px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+}
+
+
+/* Misc visuals
+----------------------------------*/
+
+/* Overlays */
+.ui-widget-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.ui-datepicker {
+	width: 17em;
+	padding: .2em .2em 0;
+	display: none;
+}
+.ui-datepicker .ui-datepicker-header {
+	position: relative;
+	padding: .2em 0;
+}
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+	position: absolute;
+	top: 2px;
+	width: 1.8em;
+	height: 1.8em;
+}
+.ui-datepicker .ui-datepicker-prev-hover,
+.ui-datepicker .ui-datepicker-next-hover {
+	top: 1px;
+}
+.ui-datepicker .ui-datepicker-prev {
+	left: 2px;
+}
+.ui-datepicker .ui-datepicker-next {
+	right: 2px;
+}
+.ui-datepicker .ui-datepicker-prev-hover {
+	left: 1px;
+}
+.ui-datepicker .ui-datepicker-next-hover {
+	right: 1px;
+}
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span {
+	display: block;
+	position: absolute;
+	left: 50%;
+	margin-left: -8px;
+	top: 50%;
+	margin-top: -8px;
+}
+.ui-datepicker .ui-datepicker-title {
+	margin: 0 2.3em;
+	line-height: 1.8em;
+	text-align: center;
+}
+.ui-datepicker .ui-datepicker-title select {
+	font-size: 1em;
+	margin: 1px 0;
+}
+.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year {
+	width: 45%;
+}
+.ui-datepicker table {
+	width: 100%;
+	font-size: .9em;
+	border-collapse: collapse;
+	margin: 0 0 .4em;
+}
+.ui-datepicker th {
+	padding: .7em .3em;
+	text-align: center;
+	font-weight: bold;
+	border: 0;
+}
+.ui-datepicker td {
+	border: 0;
+	padding: 1px;
+}
+.ui-datepicker td span,
+.ui-datepicker td a {
+	display: block;
+	padding: .2em;
+	text-align: right;
+	text-decoration: none;
+}
+.ui-datepicker .ui-datepicker-buttonpane {
+	background-image: none;
+	margin: .7em 0 0 0;
+	padding: 0 .2em;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
+}
+.ui-datepicker .ui-datepicker-buttonpane button {
+	float: right;
+	margin: .5em .2em .4em;
+	cursor: pointer;
+	padding: .2em .6em .3em .6em;
+	width: auto;
+	overflow: visible;
+}
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
+	float: left;
+}
+
+/* with multiple calendars */
+.ui-datepicker.ui-datepicker-multi {
+	width: auto;
+}
+.ui-datepicker-multi .ui-datepicker-group {
+	float: left;
+}
+.ui-datepicker-multi .ui-datepicker-group table {
+	width: 95%;
+	margin: 0 auto .4em;
+}
+.ui-datepicker-multi-2 .ui-datepicker-group {
+	width: 50%;
+}
+.ui-datepicker-multi-3 .ui-datepicker-group {
+	width: 33.3%;
+}
+.ui-datepicker-multi-4 .ui-datepicker-group {
+	width: 25%;
+}
+.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header {
+	border-left-width: 0;
+}
+.ui-datepicker-multi .ui-datepicker-buttonpane {
+	clear: left;
+}
+.ui-datepicker-row-break {
+	clear: both;
+	width: 100%;
+	font-size: 0;
+}
+
+/* RTL support */
+.ui-datepicker-rtl {
+	direction: rtl;
+}
+.ui-datepicker-rtl .ui-datepicker-prev {
+	right: 2px;
+	left: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-next {
+	left: 2px;
+	right: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-prev:hover {
+	right: 1px;
+	left: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-next:hover {
+	left: 1px;
+	right: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane {
+	clear: right;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button {
+	float: left;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current,
+.ui-datepicker-rtl .ui-datepicker-group {
+	float: right;
+}
+.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header {
+	border-right-width: 0;
+	border-left-width: 1px;
+}
+
+/* Icons */
+.ui-datepicker .ui-icon {
+	display: block;
+	text-indent: -99999px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	left: .5em;
+	top: .3em;
+}
+
+.ui-draggable-handle {
+	-ms-touch-action: none;
+	touch-action: none;
+}
+.ui-resizable {
+	position: relative;
+}
+.ui-resizable-handle {
+	position: absolute;
+	font-size: 0.1px;
+	display: block;
+	-ms-touch-action: none;
+	touch-action: none;
+}
+.ui-resizable-disabled .ui-resizable-handle,
+.ui-resizable-autohide .ui-resizable-handle {
+	display: none;
+}
+.ui-resizable-n {
+	cursor: n-resize;
+	height: 7px;
+	width: 100%;
+	top: -5px;
+	left: 0;
+}
+.ui-resizable-s {
+	cursor: s-resize;
+	height: 7px;
+	width: 100%;
+	bottom: -5px;
+	left: 0;
+}
+.ui-resizable-e {
+	cursor: e-resize;
+	width: 7px;
+	right: -5px;
+	top: 0;
+	height: 100%;
+}
+.ui-resizable-w {
+	cursor: w-resize;
+	width: 7px;
+	left: -5px;
+	top: 0;
+	height: 100%;
+}
+.ui-resizable-se {
+	cursor: se-resize;
+	width: 12px;
+	height: 12px;
+	right: 1px;
+	bottom: 1px;
+}
+.ui-resizable-sw {
+	cursor: sw-resize;
+	width: 9px;
+	height: 9px;
+	left: -5px;
+	bottom: -5px;
+}
+.ui-resizable-nw {
+	cursor: nw-resize;
+	width: 9px;
+	height: 9px;
+	left: -5px;
+	top: -5px;
+}
+.ui-resizable-ne {
+	cursor: ne-resize;
+	width: 9px;
+	height: 9px;
+	right: -5px;
+	top: -5px;
+}
+.ui-sortable-handle {
+	-ms-touch-action: none;
+	touch-action: none;
+}
+.ui-autocomplete {
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: default;
+}
+.ui-menu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: block;
+	outline: none;
+}
+.ui-menu .ui-menu {
+	position: absolute;
+}
+.ui-menu .ui-menu-item {
+	position: relative;
+	margin: 0;
+	padding: 3px 1em 3px .4em;
+	cursor: pointer;
+	min-height: 0; /* support: IE7 */
+	/* support: IE10, see #8844 */
+	list-style-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");
+}
+.ui-menu .ui-menu-divider {
+	margin: 5px 0;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+	border-width: 1px 0 0 0;
+}
+.ui-menu .ui-state-focus,
+.ui-menu .ui-state-active {
+	margin: -1px;
+}
+
+/* icon support */
+.ui-menu-icons {
+	position: relative;
+}
+.ui-menu-icons .ui-menu-item {
+	padding-left: 2em;
+}
+
+/* left-aligned */
+.ui-menu .ui-icon {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: .2em;
+	margin: auto 0;
+}
+
+/* right-aligned */
+.ui-menu .ui-menu-icon {
+	left: auto;
+	right: 0;
+}
+.ui-slider {
+	position: relative;
+	text-align: left;
+}
+.ui-slider .ui-slider-handle {
+	position: absolute;
+	z-index: 2;
+	width: 1.2em;
+	height: 1.2em;
+	cursor: default;
+	-ms-touch-action: none;
+	touch-action: none;
+}
+.ui-slider .ui-slider-range {
+	position: absolute;
+	z-index: 1;
+	font-size: .7em;
+	display: block;
+	border: 0;
+	background-position: 0 0;
+}
+
+/* support: IE8 - See #6727 */
+.ui-slider.ui-state-disabled .ui-slider-handle,
+.ui-slider.ui-state-disabled .ui-slider-range {
+	filter: inherit;
+}
+
+.ui-slider-horizontal {
+	height: .8em;
+}
+.ui-slider-horizontal .ui-slider-handle {
+	top: -.3em;
+	margin-left: -.6em;
+}
+.ui-slider-horizontal .ui-slider-range {
+	top: 0;
+	height: 100%;
+}
+.ui-slider-horizontal .ui-slider-range-min {
+	left: 0;
+}
+.ui-slider-horizontal .ui-slider-range-max {
+	right: 0;
+}
+
+.ui-slider-vertical {
+	width: .8em;
+	height: 100px;
+}
+.ui-slider-vertical .ui-slider-handle {
+	left: -.3em;
+	margin-left: 0;
+	margin-bottom: -.6em;
+}
+.ui-slider-vertical .ui-slider-range {
+	left: 0;
+	width: 100%;
+}
+.ui-slider-vertical .ui-slider-range-min {
+	bottom: 0;
+}
+.ui-slider-vertical .ui-slider-range-max {
+	top: 0;
+}
+
+/* Component containers
+----------------------------------*/
+.ui-widget {
+	font-family: Trebuchet MS,Tahoma,Verdana,Arial,sans-serif;
+	font-size: 1.1em;
+}
+.ui-widget .ui-widget {
+	font-size: 1em;
+}
+.ui-widget input,
+.ui-widget select,
+.ui-widget textarea,
+.ui-widget button {
+	font-family: Trebuchet MS,Tahoma,Verdana,Arial,sans-serif;
+	font-size: 1em;
+}
+.ui-widget-content {
+	border: 1px solid #dddddd;
+	background: #eeeeee url("images/ui-bg_highlight-soft_100_eeeeee_1x100.png") 50% top repeat-x;
+	color: #333333;
+}
+.ui-widget-content a {
+	color: #333333;
+}
+.ui-widget-header {
+	border: 1px solid #e78f08;
+	background: #f6a828 url("images/ui-bg_gloss-wave_35_f6a828_500x100.png") 50% 50% repeat-x;
+	color: #ffffff;
+	font-weight: bold;
+}
+.ui-widget-header a {
+	color: #ffffff;
+}
+
+/* Interaction states
+----------------------------------*/
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+	border: 1px solid #cccccc;
+	background: #f6f6f6 url("images/ui-bg_glass_100_f6f6f6_1x400.png") 50% 50% repeat-x;
+	font-weight: bold;
+	color: #1c94c4;
+}
+.ui-state-default a,
+.ui-state-default a:link,
+.ui-state-default a:visited {
+	color: #1c94c4;
+	text-decoration: none;
+}
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+	border: 1px solid #fbcb09;
+	background: #fdf5ce url("images/ui-bg_glass_100_fdf5ce_1x400.png") 50% 50% repeat-x;
+	font-weight: bold;
+	color: #c77405;
+}
+.ui-state-hover a,
+.ui-state-hover a:hover,
+.ui-state-hover a:link,
+.ui-state-hover a:visited,
+.ui-state-focus a,
+.ui-state-focus a:hover,
+.ui-state-focus a:link,
+.ui-state-focus a:visited {
+	color: #c77405;
+	text-decoration: none;
+}
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+	border: 1px solid #fbd850;
+	background: #ffffff url("images/ui-bg_glass_65_ffffff_1x400.png") 50% 50% repeat-x;
+	font-weight: bold;
+	color: #eb8f00;
+}
+.ui-state-active a,
+.ui-state-active a:link,
+.ui-state-active a:visited {
+	color: #eb8f00;
+	text-decoration: none;
+}
+
+/* Interaction Cues
+----------------------------------*/
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight {
+	border: 1px solid #fed22f;
+	background: #ffe45c url("images/ui-bg_highlight-soft_75_ffe45c_1x100.png") 50% top repeat-x;
+	color: #363636;
+}
+.ui-state-highlight a,
+.ui-widget-content .ui-state-highlight a,
+.ui-widget-header .ui-state-highlight a {
+	color: #363636;
+}
+.ui-state-error,
+.ui-widget-content .ui-state-error,
+.ui-widget-header .ui-state-error {
+	border: 1px solid #cd0a0a;
+	background: #b81900 url("images/ui-bg_diagonals-thick_18_b81900_40x40.png") 50% 50% repeat;
+	color: #ffffff;
+}
+.ui-state-error a,
+.ui-widget-content .ui-state-error a,
+.ui-widget-header .ui-state-error a {
+	color: #ffffff;
+}
+.ui-state-error-text,
+.ui-widget-content .ui-state-error-text,
+.ui-widget-header .ui-state-error-text {
+	color: #ffffff;
+}
+.ui-priority-primary,
+.ui-widget-content .ui-priority-primary,
+.ui-widget-header .ui-priority-primary {
+	font-weight: bold;
+}
+.ui-priority-secondary,
+.ui-widget-content .ui-priority-secondary,
+.ui-widget-header .ui-priority-secondary {
+	opacity: .7;
+	filter:Alpha(Opacity=70); /* support: IE8 */
+	font-weight: normal;
+}
+.ui-state-disabled,
+.ui-widget-content .ui-state-disabled,
+.ui-widget-header .ui-state-disabled {
+	opacity: .35;
+	filter:Alpha(Opacity=35); /* support: IE8 */
+	background-image: none;
+}
+.ui-state-disabled .ui-icon {
+	filter:Alpha(Opacity=35); /* support: IE8 - See #6059 */
+}
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+.ui-icon {
+	width: 16px;
+	height: 16px;
+}
+.ui-icon,
+.ui-widget-content .ui-icon {
+	background-image: url("images/ui-icons_222222_256x240.png");
+}
+.ui-widget-header .ui-icon {
+	background-image: url("images/ui-icons_ffffff_256x240.png");
+}
+.ui-state-default .ui-icon {
+	background-image: url("images/ui-icons_ef8c08_256x240.png");
+}
+.ui-state-hover .ui-icon,
+.ui-state-focus .ui-icon {
+	background-image: url("images/ui-icons_ef8c08_256x240.png");
+}
+.ui-state-active .ui-icon {
+	background-image: url("images/ui-icons_ef8c08_256x240.png");
+}
+.ui-state-highlight .ui-icon {
+	background-image: url("images/ui-icons_228ef1_256x240.png");
+}
+.ui-state-error .ui-icon,
+.ui-state-error-text .ui-icon {
+	background-image: url("images/ui-icons_ffd27a_256x240.png");
+}
+
+/* positioning */
+.ui-icon-blank { background-position: 16px 16px; }
+.ui-icon-carat-1-n { background-position: 0 0; }
+.ui-icon-carat-1-ne { background-position: -16px 0; }
+.ui-icon-carat-1-e { background-position: -32px 0; }
+.ui-icon-carat-1-se { background-position: -48px 0; }
+.ui-icon-carat-1-s { background-position: -64px 0; }
+.ui-icon-carat-1-sw { background-position: -80px 0; }
+.ui-icon-carat-1-w { background-position: -96px 0; }
+.ui-icon-carat-1-nw { background-position: -112px 0; }
+.ui-icon-carat-2-n-s { background-position: -128px 0; }
+.ui-icon-carat-2-e-w { background-position: -144px 0; }
+.ui-icon-triangle-1-n { background-position: 0 -16px; }
+.ui-icon-triangle-1-ne { background-position: -16px -16px; }
+.ui-icon-triangle-1-e { background-position: -32px -16px; }
+.ui-icon-triangle-1-se { background-position: -48px -16px; }
+.ui-icon-triangle-1-s { background-position: -64px -16px; }
+.ui-icon-triangle-1-sw { background-position: -80px -16px; }
+.ui-icon-triangle-1-w { background-position: -96px -16px; }
+.ui-icon-triangle-1-nw { background-position: -112px -16px; }
+.ui-icon-triangle-2-n-s { background-position: -128px -16px; }
+.ui-icon-triangle-2-e-w { background-position: -144px -16px; }
+.ui-icon-arrow-1-n { background-position: 0 -32px; }
+.ui-icon-arrow-1-ne { background-position: -16px -32px; }
+.ui-icon-arrow-1-e { background-position: -32px -32px; }
+.ui-icon-arrow-1-se { background-position: -48px -32px; }
+.ui-icon-arrow-1-s { background-position: -64px -32px; }
+.ui-icon-arrow-1-sw { background-position: -80px -32px; }
+.ui-icon-arrow-1-w { background-position: -96px -32px; }
+.ui-icon-arrow-1-nw { background-position: -112px -32px; }
+.ui-icon-arrow-2-n-s { background-position: -128px -32px; }
+.ui-icon-arrow-2-ne-sw { background-position: -144px -32px; }
+.ui-icon-arrow-2-e-w { background-position: -160px -32px; }
+.ui-icon-arrow-2-se-nw { background-position: -176px -32px; }
+.ui-icon-arrowstop-1-n { background-position: -192px -32px; }
+.ui-icon-arrowstop-1-e { background-position: -208px -32px; }
+.ui-icon-arrowstop-1-s { background-position: -224px -32px; }
+.ui-icon-arrowstop-1-w { background-position: -240px -32px; }
+.ui-icon-arrowthick-1-n { background-position: 0 -48px; }
+.ui-icon-arrowthick-1-ne { background-position: -16px -48px; }
+.ui-icon-arrowthick-1-e { background-position: -32px -48px; }
+.ui-icon-arrowthick-1-se { background-position: -48px -48px; }
+.ui-icon-arrowthick-1-s { background-position: -64px -48px; }
+.ui-icon-arrowthick-1-sw { background-position: -80px -48px; }
+.ui-icon-arrowthick-1-w { background-position: -96px -48px; }
+.ui-icon-arrowthick-1-nw { background-position: -112px -48px; }
+.ui-icon-arrowthick-2-n-s { background-position: -128px -48px; }
+.ui-icon-arrowthick-2-ne-sw { background-position: -144px -48px; }
+.ui-icon-arrowthick-2-e-w { background-position: -160px -48px; }
+.ui-icon-arrowthick-2-se-nw { background-position: -176px -48px; }
+.ui-icon-arrowthickstop-1-n { background-position: -192px -48px; }
+.ui-icon-arrowthickstop-1-e { background-position: -208px -48px; }
+.ui-icon-arrowthickstop-1-s { background-position: -224px -48px; }
+.ui-icon-arrowthickstop-1-w { background-position: -240px -48px; }
+.ui-icon-arrowreturnthick-1-w { background-position: 0 -64px; }
+.ui-icon-arrowreturnthick-1-n { background-position: -16px -64px; }
+.ui-icon-arrowreturnthick-1-e { background-position: -32px -64px; }
+.ui-icon-arrowreturnthick-1-s { background-position: -48px -64px; }
+.ui-icon-arrowreturn-1-w { background-position: -64px -64px; }
+.ui-icon-arrowreturn-1-n { background-position: -80px -64px; }
+.ui-icon-arrowreturn-1-e { background-position: -96px -64px; }
+.ui-icon-arrowreturn-1-s { background-position: -112px -64px; }
+.ui-icon-arrowrefresh-1-w { background-position: -128px -64px; }
+.ui-icon-arrowrefresh-1-n { background-position: -144px -64px; }
+.ui-icon-arrowrefresh-1-e { background-position: -160px -64px; }
+.ui-icon-arrowrefresh-1-s { background-position: -176px -64px; }
+.ui-icon-arrow-4 { background-position: 0 -80px; }
+.ui-icon-arrow-4-diag { background-position: -16px -80px; }
+.ui-icon-extlink { background-position: -32px -80px; }
+.ui-icon-newwin { background-position: -48px -80px; }
+.ui-icon-refresh { background-position: -64px -80px; }
+.ui-icon-shuffle { background-position: -80px -80px; }
+.ui-icon-transfer-e-w { background-position: -96px -80px; }
+.ui-icon-transferthick-e-w { background-position: -112px -80px; }
+.ui-icon-folder-collapsed { background-position: 0 -96px; }
+.ui-icon-folder-open { background-position: -16px -96px; }
+.ui-icon-document { background-position: -32px -96px; }
+.ui-icon-document-b { background-position: -48px -96px; }
+.ui-icon-note { background-position: -64px -96px; }
+.ui-icon-mail-closed { background-position: -80px -96px; }
+.ui-icon-mail-open { background-position: -96px -96px; }
+.ui-icon-suitcase { background-position: -112px -96px; }
+.ui-icon-comment { background-position: -128px -96px; }
+.ui-icon-person { background-position: -144px -96px; }
+.ui-icon-print { background-position: -160px -96px; }
+.ui-icon-trash { background-position: -176px -96px; }
+.ui-icon-locked { background-position: -192px -96px; }
+.ui-icon-unlocked { background-position: -208px -96px; }
+.ui-icon-bookmark { background-position: -224px -96px; }
+.ui-icon-tag { background-position: -240px -96px; }
+.ui-icon-home { background-position: 0 -112px; }
+.ui-icon-flag { background-position: -16px -112px; }
+.ui-icon-calendar { background-position: -32px -112px; }
+.ui-icon-cart { background-position: -48px -112px; }
+.ui-icon-pencil { background-position: -64px -112px; }
+.ui-icon-clock { background-position: -80px -112px; }
+.ui-icon-disk { background-position: -96px -112px; }
+.ui-icon-calculator { background-position: -112px -112px; }
+.ui-icon-zoomin { background-position: -128px -112px; }
+.ui-icon-zoomout { background-position: -144px -112px; }
+.ui-icon-search { background-position: -160px -112px; }
+.ui-icon-wrench { background-position: -176px -112px; }
+.ui-icon-gear { background-position: -192px -112px; }
+.ui-icon-heart { background-position: -208px -112px; }
+.ui-icon-star { background-position: -224px -112px; }
+.ui-icon-link { background-position: -240px -112px; }
+.ui-icon-cancel { background-position: 0 -128px; }
+.ui-icon-plus { background-position: -16px -128px; }
+.ui-icon-plusthick { background-position: -32px -128px; }
+.ui-icon-minus { background-position: -48px -128px; }
+.ui-icon-minusthick { background-position: -64px -128px; }
+.ui-icon-close { background-position: -80px -128px; }
+.ui-icon-closethick { background-position: -96px -128px; }
+.ui-icon-key { background-position: -112px -128px; }
+.ui-icon-lightbulb { background-position: -128px -128px; }
+.ui-icon-scissors { background-position: -144px -128px; }
+.ui-icon-clipboard { background-position: -160px -128px; }
+.ui-icon-copy { background-position: -176px -128px; }
+.ui-icon-contact { background-position: -192px -128px; }
+.ui-icon-image { background-position: -208px -128px; }
+.ui-icon-video { background-position: -224px -128px; }
+.ui-icon-script { background-position: -240px -128px; }
+.ui-icon-alert { background-position: 0 -144px; }
+.ui-icon-info { background-position: -16px -144px; }
+.ui-icon-notice { background-position: -32px -144px; }
+.ui-icon-help { background-position: -48px -144px; }
+.ui-icon-check { background-position: -64px -144px; }
+.ui-icon-bullet { background-position: -80px -144px; }
+.ui-icon-radio-on { background-position: -96px -144px; }
+.ui-icon-radio-off { background-position: -112px -144px; }
+.ui-icon-pin-w { background-position: -128px -144px; }
+.ui-icon-pin-s { background-position: -144px -144px; }
+.ui-icon-play { background-position: 0 -160px; }
+.ui-icon-pause { background-position: -16px -160px; }
+.ui-icon-seek-next { background-position: -32px -160px; }
+.ui-icon-seek-prev { background-position: -48px -160px; }
+.ui-icon-seek-end { background-position: -64px -160px; }
+.ui-icon-seek-start { background-position: -80px -160px; }
+/* ui-icon-seek-first is deprecated, use ui-icon-seek-start instead */
+.ui-icon-seek-first { background-position: -80px -160px; }
+.ui-icon-stop { background-position: -96px -160px; }
+.ui-icon-eject { background-position: -112px -160px; }
+.ui-icon-volume-off { background-position: -128px -160px; }
+.ui-icon-volume-on { background-position: -144px -160px; }
+.ui-icon-power { background-position: 0 -176px; }
+.ui-icon-signal-diag { background-position: -16px -176px; }
+.ui-icon-signal { background-position: -32px -176px; }
+.ui-icon-battery-0 { background-position: -48px -176px; }
+.ui-icon-battery-1 { background-position: -64px -176px; }
+.ui-icon-battery-2 { background-position: -80px -176px; }
+.ui-icon-battery-3 { background-position: -96px -176px; }
+.ui-icon-circle-plus { background-position: 0 -192px; }
+.ui-icon-circle-minus { background-position: -16px -192px; }
+.ui-icon-circle-close { background-position: -32px -192px; }
+.ui-icon-circle-triangle-e { background-position: -48px -192px; }
+.ui-icon-circle-triangle-s { background-position: -64px -192px; }
+.ui-icon-circle-triangle-w { background-position: -80px -192px; }
+.ui-icon-circle-triangle-n { background-position: -96px -192px; }
+.ui-icon-circle-arrow-e { background-position: -112px -192px; }
+.ui-icon-circle-arrow-s { background-position: -128px -192px; }
+.ui-icon-circle-arrow-w { background-position: -144px -192px; }
+.ui-icon-circle-arrow-n { background-position: -160px -192px; }
+.ui-icon-circle-zoomin { background-position: -176px -192px; }
+.ui-icon-circle-zoomout { background-position: -192px -192px; }
+.ui-icon-circle-check { background-position: -208px -192px; }
+.ui-icon-circlesmall-plus { background-position: 0 -208px; }
+.ui-icon-circlesmall-minus { background-position: -16px -208px; }
+.ui-icon-circlesmall-close { background-position: -32px -208px; }
+.ui-icon-squaresmall-plus { background-position: -48px -208px; }
+.ui-icon-squaresmall-minus { background-position: -64px -208px; }
+.ui-icon-squaresmall-close { background-position: -80px -208px; }
+.ui-icon-grip-dotted-vertical { background-position: 0 -224px; }
+.ui-icon-grip-dotted-horizontal { background-position: -16px -224px; }
+.ui-icon-grip-solid-vertical { background-position: -32px -224px; }
+.ui-icon-grip-solid-horizontal { background-position: -48px -224px; }
+.ui-icon-gripsmall-diagonal-se { background-position: -64px -224px; }
+.ui-icon-grip-diagonal-se { background-position: -80px -224px; }
+
+
+/* Misc visuals
+----------------------------------*/
+
+/* Corner radius */
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-left,
+.ui-corner-tl {
+	border-top-left-radius: 4px;
+}
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-right,
+.ui-corner-tr {
+	border-top-right-radius: 4px;
+}
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-left,
+.ui-corner-bl {
+	border-bottom-left-radius: 4px;
+}
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-right,
+.ui-corner-br {
+	border-bottom-right-radius: 4px;
+}
+
+/* Overlays */
+.ui-widget-overlay {
+	background: #666666 url("images/ui-bg_diagonals-thick_20_666666_40x40.png") 50% 50% repeat;
+	opacity: .5;
+	filter: Alpha(Opacity=50); /* support: IE8 */
+}
+.ui-widget-shadow {
+	margin: -5px 0 0 -5px;
+	padding: 5px;
+	background: #000000 url("images/ui-bg_flat_10_000000_40x100.png") 50% 50% repeat-x;
+	opacity: .2;
+	filter: Alpha(Opacity=20); /* support: IE8 */
+	border-radius: 5px;
+}
+</style><style type="text/css">
+.container[data-v-30ab118c] {
+  margin-top: 30px;
+  background-color: white;
+  padding: 20px;
+}
+button[data-v-30ab118c] {
+  margin: 5px;
+  padding: 5px;
+}
+.list-item[data-v-30ab118c]:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+.headings[data-v-30ab118c] {
+  border-bottom: 2px solid #dddddd;
+  margin-bottom: 20px
+}
+
+</style><style type="text/css">
+.container[data-v-54082912] {
+  margin-top: 30px;
+  background-color: white;
+  padding: 20px;
+}
+button[data-v-54082912] {
+  margin: 5px;
+  padding: 5px;
+}
+.list-item[data-v-54082912]:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+.headings[data-v-54082912] {
+  border-bottom: 2px solid #dddddd;
+  margin-bottom: 20px
+}
+</style><script type="text/javascript" charset="utf-8" async="" src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/HomeView-f9c529641648cd1c3dce.bundle.js.download"></script><style type="text/css">@charset "UTF-8";
+#home-view {
+  overflow: hidden; }
+  #home-view h1, #home-view .text-h1 {
+    font-family: "Arvo", serif;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 62px;
+    letter-spacing: 2px;
+    margin-bottom: -6px; }
+  #home-view h2, #home-view .text-h2 {
+    font-family: "Arvo", serif;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 62px;
+    letter-spacing: 2.58px; }
+  #home-view h3, #home-view .text-h3 {
+    font-family: "Arvo", serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.52px; }
+  #home-view h4, #home-view .text-h4 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 0.56px; }
+  #home-view h5, #home-view .text-h5 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.48px;
+    font-weight: normal; }
+  #home-view p, #home-view .text-p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.75px;
+    line-height: 26px; }
+  #home-view .btn-primary, #home-view .btn-navy, #home-view .btn-teal {
+    background-color: #1FBAB4;
+    border-radius: 4px;
+    color: #232323;
+    text-shadow: unset;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.71px;
+    line-height: 24px;
+    width: 247px; }
+    #home-view .btn-primary:hover, #home-view .btn-navy:hover, #home-view .btn-teal:hover {
+      background-color: #2DCEC8;
+      transition: background-color .35s; }
+  #home-view .btn-primary-alt, #home-view .btn-navy-alt, #home-view .btn-teal-alt {
+    background-color: transparent;
+    border: 2px solid #1FBAB4;
+    color: #1FBAB4;
+    border-radius: 4px;
+    text-shadow: unset;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.71px;
+    line-height: 24px;
+    width: 247px; }
+    #home-view .btn-primary-alt:hover, #home-view .btn-navy-alt:hover, #home-view .btn-teal-alt:hover {
+      background-color: #1FBAB4;
+      box-shadow: unset;
+      color: #232323;
+      transition: color .35s, background-color .35s, box-shadow .35s; }
+  #home-view #site-content-area .row {
+    padding: 62px 0px; }
+  #home-view #site-content-area .row-dark {
+    background: linear-gradient(118.13deg, #0E4C60 0%, #20572B 100%); }
+  #home-view #site-content-area .width-container {
+    max-width: 1170px;
+    float: unset;
+    margin: 0 auto; }
+  #home-view #site-content-area #jumbotron-container-fluid {
+    background-image: url("/images/pages/home/jumbotron.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 627px;
+    width: 100%;
+    margin: auto; }
+    #home-view #site-content-area #jumbotron-container-fluid h1 {
+      margin: 54px 64px 30px; }
+    #home-view #site-content-area #jumbotron-container-fluid .button-section {
+      margin-left: 64px;
+      width: 250px;
+      text-transform: uppercase; }
+      #home-view #site-content-area #jumbotron-container-fluid .button-section .btn-primary {
+        background-color: #F2BE19; }
+        #home-view #site-content-area #jumbotron-container-fluid .button-section .btn-primary:hover {
+          background-color: #FDD147; }
+      #home-view #site-content-area #jumbotron-container-fluid .button-section .btn-primary-alt {
+        border-color: #F2BE19;
+        color: #F2BE19; }
+        #home-view #site-content-area #jumbotron-container-fluid .button-section .btn-primary-alt:hover {
+          background-color: #F2BE19;
+          color: #232323; }
+  #home-view #site-content-area #game-based {
+    padding: 62px 75px;
+    max-width: 1170px;
+    margin: 0 auto; }
+    @media (max-width: 992px) {
+      #home-view #site-content-area #game-based {
+        text-align: center;
+        flex-direction: column-reverse; }
+        #home-view #site-content-area #game-based .game-based-image {
+          margin-bottom: 45px; } }
+    #home-view #site-content-area #game-based .play-btn {
+      margin-bottom: 0; }
+    #home-view #site-content-area #game-based .game-based-image {
+      display: inline-block;
+      max-width: 600px; }
+      #home-view #site-content-area #game-based .game-based-image img {
+        max-height: 364px;
+        width: 100%; }
+  #home-view #site-content-area #classroom-in-box-row {
+    padding: 62px 40px; }
+    #home-view #site-content-area #classroom-in-box-row .row {
+      padding: 0; }
+      #home-view #site-content-area #classroom-in-box-row .row.signup_btn {
+        margin-top: 45px;
+        text-align: center; }
+    #home-view #site-content-area #classroom-in-box-row h2, #home-view #site-content-area #classroom-in-box-row .text-p {
+      color: white;
+      margin-bottom: 0px; }
+      @media (max-width: 1200px) {
+        #home-view #site-content-area #classroom-in-box-row h2, #home-view #site-content-area #classroom-in-box-row .text-p {
+          padding-top: 20px; } }
+    #home-view #site-content-area #classroom-in-box-row .video-iframe {
+      text-align: left; }
+      @media (min-width: 1200px) {
+        #home-view #site-content-area #classroom-in-box-row .video-iframe {
+          padding-top: 18px; } }
+      @media (max-width: 1200px) {
+        #home-view #site-content-area #classroom-in-box-row .video-iframe {
+          text-align: center; } }
+    #home-view #site-content-area #classroom-in-box-row img {
+      position: relative;
+      top: -15px; }
+    #home-view #site-content-area #classroom-in-box-row ul {
+      list-style: none; }
+    #home-view #site-content-area #classroom-in-box-row li {
+      text-indent: -20px;
+      margin-bottom: 15px; }
+      #home-view #site-content-area #classroom-in-box-row li::before {
+        content: "\2022       ";
+        color: #1FBAB4;
+        font-size: 30px; }
+    #home-view #site-content-area #classroom-in-box-row .text-p {
+      font-size: 24px;
+      letter-spacing: 0.48px;
+      line-height: 30px; }
+  #home-view #site-content-area .open-video-btn.video-text {
+    color: inherit;
+    text-decoration: underline;
+    font-style: italic; }
+  #home-view #site-content-area .teacher-screenshots {
+    padding: 10px;
+    margin-bottom: 40px; }
+    #home-view #site-content-area .teacher-screenshots .label {
+      color: black;
+      display: block; }
+    #home-view #site-content-area .teacher-screenshots .screenshots {
+      text-align: center; }
+      #home-view #site-content-area .teacher-screenshots .screenshots .screenshot-grid img {
+        display: inline-block;
+        margin: 6.5px;
+        width: 300px;
+        border-radius: 4px; }
+  #home-view #site-content-area #creativity-rigor {
+    background-color: #EAEEEE; }
+    #home-view #site-content-area #creativity-rigor .row {
+      padding-top: 40px; }
+    #home-view #site-content-area #creativity-rigor img {
+      width: 100%; }
+      @media (max-width: 1200px) {
+        #home-view #site-content-area #creativity-rigor img {
+          height: unset; } }
+    #home-view #site-content-area #creativity-rigor .tile-shadow {
+      background-color: white;
+      box-shadow: 2px 2px 6px 0 rgba(155, 155, 155, 0.67);
+      padding: 19px; }
+      @media (max-width: 1200px) {
+        #home-view #site-content-area #creativity-rigor .tile-shadow {
+          height: 100%;
+          margin-bottom: 15px; }
+          #home-view #site-content-area #creativity-rigor .tile-shadow .request-a-quote {
+            margin-top: -15px; } }
+      #home-view #site-content-area #creativity-rigor .tile-shadow h3 {
+        margin: 8px auto 10px; }
+      #home-view #site-content-area #creativity-rigor .tile-shadow p {
+        margin-bottom: 20px; }
+        @media (max-width: 1200px) {
+          #home-view #site-content-area #creativity-rigor .tile-shadow p {
+            margin-bottom: 35px; } }
+  #home-view #site-content-area #built-for-teachers {
+    padding: 62px; }
+    @media (max-width: 1200px) {
+      #home-view #site-content-area #built-for-teachers {
+        padding: 62px 30px; } }
+    #home-view #site-content-area #built-for-teachers .row {
+      padding: 18px 0 0; }
+    #home-view #site-content-area #built-for-teachers .for-teachers-blurb p {
+      color: white;
+      margin-bottom: 40px; }
+    #home-view #site-content-area #built-for-teachers h3 {
+      padding-bottom: 25px; }
+    #home-view #site-content-area #built-for-teachers #built-for-teachers-carousel {
+      border-radius: 14px;
+      background-color: #FFFFFF;
+      box-shadow: inset 2px 2px 6px 0 rgba(31, 186, 180, 0.5), 4px 4px 6px 0 #0E4C60;
+      min-height: 425px;
+      padding-bottom: 42px;
+      padding-top: 31px; }
+      @media (max-width: 1200px) {
+        #home-view #site-content-area #built-for-teachers #built-for-teachers-carousel {
+          height: unset; } }
+      #home-view #site-content-area #built-for-teachers #built-for-teachers-carousel .carousel-inner .item .row div {
+        float: none;
+        display: inline-block;
+        vertical-align: middle; }
+        #home-view #site-content-area #built-for-teachers #built-for-teachers-carousel .carousel-inner .item .row div.text-part-carousel {
+          padding-top: 8px;
+          vertical-align: top; }
+      #home-view #site-content-area #built-for-teachers #built-for-teachers-carousel .carousel-control {
+        background-image: unset;
+        width: 60px; }
+        #home-view #site-content-area #built-for-teachers #built-for-teachers-carousel .carousel-control img {
+          position: absolute;
+          margin: auto;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          height: 25px; }
+      #home-view #site-content-area #built-for-teachers #built-for-teachers-carousel p.padding-sm {
+        padding: 0 2em; }
+      #home-view #site-content-area #built-for-teachers #built-for-teachers-carousel .carousel-indicators {
+        bottom: 0; }
+        #home-view #site-content-area #built-for-teachers #built-for-teachers-carousel .carousel-indicators li {
+          background-color: #9B9B9B;
+          margin: auto 2px;
+          width: 8px;
+          height: 8px; }
+        #home-view #site-content-area #built-for-teachers #built-for-teachers-carousel .carousel-indicators li.active {
+          background-color: #1FBAB4;
+          margin: auto 2px;
+          width: 8px;
+          height: 8px; }
+      #home-view #site-content-area #built-for-teachers #built-for-teachers-carousel img.computer {
+        padding-left: 40px;
+        width: 100%; }
+        @media (max-width: 1200px) {
+          #home-view #site-content-area #built-for-teachers #built-for-teachers-carousel img.computer {
+            width: 400px;
+            padding: 0px 0px 20px 0px; } }
+  #home-view #site-content-area #for-teachers, #home-view #site-content-area #for-leaders {
+    background-color: #F7F9F9; }
+    #home-view #site-content-area #for-teachers .first_row, #home-view #site-content-area #for-leaders .first_row {
+      padding: 40px 0 0 0; }
+      @media (min-width: 1200px) {
+        #home-view #site-content-area #for-teachers .first_row, #home-view #site-content-area #for-leaders .first_row {
+          padding: 40px 0; } }
+    #home-view #site-content-area #for-teachers .second_row, #home-view #site-content-area #for-leaders .second_row {
+      padding: 0 0 45px 0; }
+    #home-view #site-content-area #for-teachers .tile-shadow, #home-view #site-content-area #for-leaders .tile-shadow {
+      background-color: #FFFFFF;
+      box-shadow: 2px 2px 6px 0 rgba(155, 155, 155, 0.51);
+      padding: 37px 40px 5px;
+      height: 315px; }
+      #home-view #site-content-area #for-teachers .tile-shadow img, #home-view #site-content-area #for-leaders .tile-shadow img {
+        height: 98px; }
+      #home-view #site-content-area #for-teachers .tile-shadow h3, #home-view #site-content-area #for-leaders .tile-shadow h3 {
+        margin: 10px auto 15px; }
+  #home-view #site-content-area #teachers-love-codecombat {
+    padding: 45px 0 31px 0; }
+    #home-view #site-content-area #teachers-love-codecombat .row {
+      padding: 59px 0; }
+    #home-view #site-content-area #teachers-love-codecombat p.mcrel-blurb {
+      color: white;
+      font-style: italic;
+      margin-bottom: 0; }
+    #home-view #site-content-area #teachers-love-codecombat .width-320 {
+      max-width: 320px;
+      display: inline-block; }
+  #home-view #site-content-area #quotes {
+    background-color: #0E4C60; }
+    #home-view #site-content-area #quotes .row {
+      padding: 0; }
+    #home-view #site-content-area #quotes img {
+      margin: 0 62px 62px 62px;
+      height: 42px;
+      width: 40px; }
+    #home-view #site-content-area #quotes #quotes-carousel h4.text-white {
+      min-height: 160px; }
+      @media (max-width: 992px) {
+        #home-view #site-content-area #quotes #quotes-carousel h4.text-white {
+          font-size: 20px;
+          min-height: 280px; } }
+    #home-view #site-content-area #quotes #quotes-carousel img {
+      margin: 30px;
+      height: 93px;
+      width: 93px; }
+    #home-view #site-content-area #quotes #quotes-carousel h4 {
+      margin: auto 168px; }
+      #home-view #site-content-area #quotes #quotes-carousel h4.wider {
+        margin: auto 84px; }
+    #home-view #site-content-area #quotes #quotes-carousel .thumbnail {
+      width: 500px;
+      display: inline-block;
+      text-align: left;
+      border: unset;
+      background-color: unset; }
+    #home-view #site-content-area #quotes #quotes-carousel .carousel-control {
+      background-image: unset;
+      width: 60px; }
+      #home-view #site-content-area #quotes #quotes-carousel .carousel-control.left img {
+        margin-left: 0; }
+      #home-view #site-content-area #quotes #quotes-carousel .carousel-control img {
+        height: 25px;
+        width: 30px;
+        margin-top: 100px; }
+    #home-view #site-content-area #quotes #quotes-carousel .carousel-indicators {
+      bottom: -50px; }
+      #home-view #site-content-area #quotes #quotes-carousel .carousel-indicators li {
+        background-color: #1FBAB4;
+        border: unset;
+        margin: auto 2px;
+        width: 8px;
+        height: 8px; }
+      #home-view #site-content-area #quotes #quotes-carousel .carousel-indicators li.active {
+        background-color: white;
+        border: unset;
+        margin: auto 2px;
+        width: 8px;
+        height: 8px; }
+    #home-view #site-content-area #quotes #quotes-carousel .quote-user-info {
+      display: inline-grid;
+      text-align: left; }
+  #home-view #site-content-area #century-skills {
+    background-color: #F7F9F9;
+    padding: 62px; }
+    #home-view #site-content-area #century-skills .row {
+      padding: 0; }
+    #home-view #site-content-area #century-skills p {
+      color: white; }
+    #home-view #site-content-area #century-skills h5 {
+      font-weight: normal; }
+    #home-view #site-content-area #century-skills #century-skills-carousel .carousel-control {
+      background-image: inherit;
+      width: 60px; }
+      #home-view #site-content-area #century-skills #century-skills-carousel .carousel-control img {
+        position: absolute;
+        margin: auto;
+        top: 60px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        height: 25px; }
+    #home-view #site-content-area #century-skills #century-skills-carousel .carousel-indicators {
+      bottom: -5px; }
+      #home-view #site-content-area #century-skills #century-skills-carousel .carousel-indicators li {
+        background-color: white;
+        border: unset;
+        margin: auto 2px;
+        width: 8px;
+        height: 8px; }
+      #home-view #site-content-area #century-skills #century-skills-carousel .carousel-indicators li.active {
+        background-color: #FF6978;
+        border: unset;
+        margin: auto 2px;
+        width: 8px;
+        height: 8px; }
+    #home-view #site-content-area #century-skills #century-skills-carousel .row.carousel-body {
+      padding: 0px; }
+    #home-view #site-content-area #century-skills #century-skills-carousel .carousel-body {
+      background-color: #0E4C60;
+      box-shadow: 2px 2px 6px 0 rgba(155, 155, 155, 0.5);
+      margin: unset; }
+      #home-view #site-content-area #century-skills #century-skills-carousel .carousel-body .col-lg-8 {
+        padding: unset; }
+      #home-view #site-content-area #century-skills #century-skills-carousel .carousel-body .col-lg-4 {
+        padding: 60px 60px 60px 40px; }
+      #home-view #site-content-area #century-skills #century-skills-carousel .carousel-body .quote {
+        background-size: cover;
+        padding-top: 22px;
+        height: 419px; }
+        #home-view #site-content-area #century-skills #century-skills-carousel .carousel-body .quote h4 {
+          margin: 20px auto; }
+          @media (max-width: 1200px) {
+            #home-view #site-content-area #century-skills #century-skills-carousel .carousel-body .quote h4 {
+              font-size: 1.2em; } }
+        @media (max-width: 1200px) {
+          #home-view #site-content-area #century-skills #century-skills-carousel .carousel-body .quote h3 {
+            font-size: 1.2em; } }
+        #home-view #site-content-area #century-skills #century-skills-carousel .carousel-body .quote img {
+          width: 42px;
+          height: 40px; }
+      #home-view #site-content-area #century-skills #century-skills-carousel .carousel-body .quote-1 {
+        background-image: url("/images/pages/home/century_carousel1.png");
+        background-position: right; }
+        @media (min-width: 768px) {
+          #home-view #site-content-area #century-skills #century-skills-carousel .carousel-body .quote-1 h4.text-white {
+            width: 440px; }
+          #home-view #site-content-area #century-skills #century-skills-carousel .carousel-body .quote-1 * {
+            transform: translate(-100px, 0); } }
+      #home-view #site-content-area #century-skills #century-skills-carousel .carousel-body .quote-2 {
+        background-image: url("/images/pages/home/century_carousel2.png");
+        background-position: right; }
+        @media (min-width: 768px) {
+          #home-view #site-content-area #century-skills #century-skills-carousel .carousel-body .quote-2 h4.text-white {
+            width: 415px; }
+          #home-view #site-content-area #century-skills #century-skills-carousel .carousel-body .quote-2 * {
+            transform: translate(-100px, 0); } }
+      #home-view #site-content-area #century-skills #century-skills-carousel .carousel-body .quote-3 {
+        background-image: url("/images/pages/home/century_carousel3.png");
+        background-position: left; }
+        @media (min-width: 768px) {
+          #home-view #site-content-area #century-skills #century-skills-carousel .carousel-body .quote-3 h4.text-white {
+            width: 415px; }
+          #home-view #site-content-area #century-skills #century-skills-carousel .carousel-body .quote-3 * {
+            transform: translate(130px, -12.5px); } }
+      #home-view #site-content-area #century-skills #century-skills-carousel .carousel-body .quote-4 {
+        background-image: url("/images/pages/home/century_carousel4.png"); }
+        @media (min-width: 768px) {
+          #home-view #site-content-area #century-skills #century-skills-carousel .carousel-body .quote-4 h4.text-white {
+            width: 325px; }
+          #home-view #site-content-area #century-skills #century-skills-carousel .carousel-body .quote-4 * {
+            transform: translate(-160px, -10px); } }
+  #home-view #site-content-area #global {
+    margin: 0 auto; }
+    #home-view #site-content-area #global .row {
+      padding: 52px 15px 0; }
+    #home-view #site-content-area #global img {
+      height: 82px; }
+    #home-view #site-content-area #global h2.text-gold {
+      margin-top: 14px;
+      margin-bottom: -14px; }
+    #home-view #site-content-area #global h5 {
+      font-weight: normal; }
+    #home-view #site-content-area #global .col-xs-6 {
+      padding: 10px 15px; }
+  #home-view #site-content-area #featured-partners {
+    margin: 0 0 -50px;
+    padding: 0; }
+    #home-view #site-content-area #featured-partners .row {
+      padding: 0; }
+    #home-view #site-content-area #featured-partners div.container.inner-container {
+      padding-top: 62px; }
+    @media (min-width: 1200px) {
+      #home-view #site-content-area #featured-partners {
+        background: linear-gradient(90deg, #F7F9F9 50%, #EAEEEE 50%); } }
+    #home-view #site-content-area #featured-partners .row:last-child {
+      padding-bottom: 62px; }
+    #home-view #site-content-area #featured-partners .inner-container {
+      max-width: 1280px; }
+      @media (min-width: 1200px) {
+        #home-view #site-content-area #featured-partners .inner-container {
+          background: linear-gradient(90deg, #F7F9F9 41.7%, #EAEEEE 41.7%); } }
+    #home-view #site-content-area #featured-partners .pink-bar {
+      margin-top: -14px;
+      padding-bottom: 31px; }
+    @media (min-width: 480px) {
+      #home-view #site-content-area #featured-partners .tile-row {
+        display: inline-block; } }
+    @media (min-width: 1200px) {
+      #home-view #site-content-area #featured-partners .featured-section .tile-row {
+        transform: translateX(15px); }
+      #home-view #site-content-area #featured-partners .partners-section {
+        transform: translateX(37px); } }
+    #home-view #site-content-area #featured-partners .partners-section .col-sm-12 a img {
+      margin-top: -22px; }
+    #home-view #site-content-area #featured-partners .tile-shadow {
+      background-color: #FFFFFF;
+      box-shadow: 2px 2px 6px 0 rgba(155, 155, 155, 0.51);
+      padding: 0px;
+      margin: 2px 2px -6px;
+      height: 190px;
+      width: 190px; }
+      @media (max-width: 768px) {
+        #home-view #site-content-area #featured-partners .tile-shadow {
+          margin: 20px; }
+          #home-view #site-content-area #featured-partners .tile-shadow:last-child {
+            margin-bottom: -7px; } }
+      #home-view #site-content-area #featured-partners .tile-shadow img {
+        width: 100%; }
+      #home-view #site-content-area #featured-partners .tile-shadow p {
+        color: #9B9B9B;
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        letter-spacing: 0.58px;
+        line-height: 19px; }
+      #home-view #site-content-area #featured-partners .tile-shadow .featured-partners-tile-logo {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0; }
+      #home-view #site-content-area #featured-partners .tile-shadow .logo-pcmag {
+        height: 100px;
+        width: 100px; }
+      #home-view #site-content-area #featured-partners .tile-shadow .logo-edsurge {
+        height: 33px;
+        width: 141px; }
+      #home-view #site-content-area #featured-partners .tile-shadow .logo-apcsp {
+        height: 100px;
+        width: 100px; }
+      #home-view #site-content-area #featured-partners .tile-shadow .logo-codie {
+        height: 55px;
+        width: 156px; }
+      #home-view #site-content-area #featured-partners .tile-shadow .logo-cse-picks {
+        height: 110px;
+        width: 110px; }
+      #home-view #site-content-area #featured-partners .tile-shadow .logo-wsj {
+        height: 44px;
+        width: 78px; }
+      #home-view #site-content-area #featured-partners .tile-shadow .logo-techcrunch {
+        height: 55px;
+        width: 79px; }
+      #home-view #site-content-area #featured-partners .tile-shadow .logo-code-org {
+        height: 80px;
+        width: 81px; }
+      #home-view #site-content-area #featured-partners .tile-shadow .logo-csforall {
+        height: 60px;
+        width: 133px; }
+      #home-view #site-content-area #featured-partners .tile-shadow .logo-amazon-future-engineer {
+        height: 35px;
+        width: 166px; }
+      #home-view #site-content-area #featured-partners .tile-shadow .logo-blurb {
+        color: #9B9B9B;
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        font-weight: 200;
+        letter-spacing: 0.58px;
+        line-height: 19px;
+        position: absolute;
+        top: 145px;
+        width: 100%; }
+
+body[lang='ru'] #home-view h1, body[lang='ru'] #home-view h2, body[lang='ru'] #home-view h3, body[lang='ru'] #home-view h4, body[lang='ru'] #home-view h5, body[lang='ru'] #home-view .text-h1, body[lang='ru'] #home-view .text-h2, body[lang='ru'] #home-view .text-h3, body[lang='ru'] #home-view .text-h4, body[lang='ru'] #home-view .text-h5, body[lang='uk'] #home-view h1, body[lang='uk'] #home-view h2, body[lang='uk'] #home-view h3, body[lang='uk'] #home-view h4, body[lang='uk'] #home-view h5, body[lang='uk'] #home-view .text-h1, body[lang='uk'] #home-view .text-h2, body[lang='uk'] #home-view .text-h3, body[lang='uk'] #home-view .text-h4, body[lang='uk'] #home-view .text-h5, body[lang='bg'] #home-view h1, body[lang='bg'] #home-view h2, body[lang='bg'] #home-view h3, body[lang='bg'] #home-view h4, body[lang='bg'] #home-view h5, body[lang='bg'] #home-view .text-h1, body[lang='bg'] #home-view .text-h2, body[lang='bg'] #home-view .text-h3, body[lang='bg'] #home-view .text-h4, body[lang='bg'] #home-view .text-h5, body[lang^='mk'] #home-view h1, body[lang^='mk'] #home-view h2, body[lang^='mk'] #home-view h3, body[lang^='mk'] #home-view h4, body[lang^='mk'] #home-view h5, body[lang^='mk'] #home-view .text-h1, body[lang^='mk'] #home-view .text-h2, body[lang^='mk'] #home-view .text-h3, body[lang^='mk'] #home-view .text-h4, body[lang^='mk'] #home-view .text-h5, body[lang='sr'] #home-view h1, body[lang='sr'] #home-view h2, body[lang='sr'] #home-view h3, body[lang='sr'] #home-view h4, body[lang='sr'] #home-view h5, body[lang='sr'] #home-view .text-h1, body[lang='sr'] #home-view .text-h2, body[lang='sr'] #home-view .text-h3, body[lang='sr'] #home-view .text-h4, body[lang='sr'] #home-view .text-h5, body[lang='pl'] #home-view h1, body[lang='pl'] #home-view h2, body[lang='pl'] #home-view h3, body[lang='pl'] #home-view h4, body[lang='pl'] #home-view h5, body[lang='pl'] #home-view .text-h1, body[lang='pl'] #home-view .text-h2, body[lang='pl'] #home-view .text-h3, body[lang='pl'] #home-view .text-h4, body[lang='pl'] #home-view .text-h5, body[lang='lt'] #home-view h1, body[lang='lt'] #home-view h2, body[lang='lt'] #home-view h3, body[lang='lt'] #home-view h4, body[lang='lt'] #home-view h5, body[lang='lt'] #home-view .text-h1, body[lang='lt'] #home-view .text-h2, body[lang='lt'] #home-view .text-h3, body[lang='lt'] #home-view .text-h4, body[lang='lt'] #home-view .text-h5, body[lang='sl'] #home-view h1, body[lang='sl'] #home-view h2, body[lang='sl'] #home-view h3, body[lang='sl'] #home-view h4, body[lang='sl'] #home-view h5, body[lang='sl'] #home-view .text-h1, body[lang='sl'] #home-view .text-h2, body[lang='sl'] #home-view .text-h3, body[lang='sl'] #home-view .text-h4, body[lang='sl'] #home-view .text-h5, body[lang='tr'] #home-view h1, body[lang='tr'] #home-view h2, body[lang='tr'] #home-view h3, body[lang='tr'] #home-view h4, body[lang='tr'] #home-view h5, body[lang='tr'] #home-view .text-h1, body[lang='tr'] #home-view .text-h2, body[lang='tr'] #home-view .text-h3, body[lang='tr'] #home-view .text-h4, body[lang='tr'] #home-view .text-h5, body[lang='vi'] #home-view h1, body[lang='vi'] #home-view h2, body[lang='vi'] #home-view h3, body[lang='vi'] #home-view h4, body[lang='vi'] #home-view h5, body[lang='vi'] #home-view .text-h1, body[lang='vi'] #home-view .text-h2, body[lang='vi'] #home-view .text-h3, body[lang='vi'] #home-view .text-h4, body[lang='vi'] #home-view .text-h5 {
+  font-family: 'Open Sans', serif; }
+</style><script type="text/javascript" charset="utf-8" async="" src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/vimeo-9bbdc8054f8b4932d76f.bundle.js.download"></script><meta data-vmid="meta-description" name="description" content="Learn typed code through a programming game. Learn Python, JavaScript, and HTML as you solve puzzles and learn to make your own coding games and websites." data-vue-meta="true"><link data-vmid="rel-canonical" rel="canonical" href="https://codecombat.com/" data-vue-meta="true"><style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0;margin:0;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:#fff;display:block;font-size:18px;padding-top:20px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .4);bottom:0;left:0;min-height:100%;position:absolute;right:0;top:0;width:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content .dialog_header{background:linear-gradient(from(#738aba), to(#2c4987));border-bottom:1px solid;border-color:#043b87;box-shadow:white 0 1px 1px -1px inset;color:#fff;font:bold 14px Helvetica, sans-serif;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:linear-gradient(from(#4267B2), to(#2a4887));background-clip:padding-box;border:1px solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:#fff;font:bold 12px Helvetica, sans-serif;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #4a4a4a;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f5f6f7;border:1px solid #4a4a4a;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-position:50% 50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}</style></head><body class="clearfix modal-open" onload="onLoad();" data-gr-c-s-loaded="true" lang="en-US" style="padding-right: 0px;"><div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div><div><iframe name="fb_xdm_frame_https" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/xd_arbiter.html" style="border: none;"></iframe></div></div></div><div id="page-container"><div id="home-view"><div class="style-flat"><nav id="main-nav" class="navbar navbar-default navbar-fixed-top text-center" style="padding-right: 0px;"><div class="container-fluid"><div class="row"><div class="col-md-12"><div class="navbar-header"><button data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false" class="navbar-toggle collapsed"><span data-i18n="nav.toggle_nav" class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="https://codecombat.com/home" class="navbar-brand"><img id="logo-img" src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/logo.png"></a></div><div id="navbar-collapse" class="collapse navbar-collapse"><div class="nav-spacer"></div><ul class="nav navbar-nav"><li><a data-event-action="Header Request Quote CTA" data-i18n="new_home.request_quote" href="https://codecombat.com/teachers/quote" class="text-p">Request a Quote</a></li><li><a href="https://codecombat.com/about" data-i18n="nav.about" class="text-p">About</a></li><li><a href="https://codecombat.com/impact" data-i18n="nav.impact" class="text-p">Impact</a></li></ul><ul class="nav navbar-nav"><li class="dropdown"><a href="https://codecombat.com/#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle text-p"><span class="language-dropdown-current">English (US)</span><span class="caret"></span></a><ul class="dropdown-menu language-dropdown"><li data-code="en-US"><a class="language-dropdown-item">English (US)</a></li><li data-code="en-GB"><a class="language-dropdown-item">English (UK)</a></li><li data-code="zh-HANS"><a class="language-dropdown-item">简体中文</a></li><li data-code="zh-HANT"><a class="language-dropdown-item">繁體中文</a></li><li data-code="ru"><a class="language-dropdown-item">русский</a></li><li data-code="es-ES"><a class="language-dropdown-item">español (ES)</a></li><li data-code="es-419"><a class="language-dropdown-item">español (América Latina)</a></li><li data-code="fr"><a class="language-dropdown-item">français</a></li><li data-code="pt-PT"><a class="language-dropdown-item">Português (Portugal)</a></li><li data-code="pt-BR"><a class="language-dropdown-item">Português (Brasil)</a></li><li role="separator" class="divider" <="" li=""></li><li data-code="ar"><a class="language-dropdown-item">العربية</a></li><li data-code="az"><a class="language-dropdown-item">azərbaycan dili</a></li><li data-code="bg"><a class="language-dropdown-item">български език</a></li><li data-code="ca"><a class="language-dropdown-item">Català</a></li><li data-code="cs"><a class="language-dropdown-item">čeština</a></li><li data-code="da"><a class="language-dropdown-item">dansk</a></li><li data-code="de-DE"><a class="language-dropdown-item">Deutsch (Deutschland)</a></li><li data-code="de-AT"><a class="language-dropdown-item">Deutsch (Österreich)</a></li><li data-code="de-CH"><a class="language-dropdown-item">Deutsch (Schweiz)</a></li><li data-code="et"><a class="language-dropdown-item">Eesti</a></li><li data-code="el"><a class="language-dropdown-item">Ελληνικά</a></li><li data-code="eo"><a class="language-dropdown-item">Esperanto</a></li><li data-code="fil"><a class="language-dropdown-item">Filipino</a></li><li data-code="fa"><a class="language-dropdown-item">فارسی</a></li><li data-code="gl"><a class="language-dropdown-item">Galego</a></li><li data-code="ko"><a class="language-dropdown-item">한국어</a></li><li data-code="haw"><a class="language-dropdown-item">ʻŌlelo Hawaiʻi</a></li><li data-code="he"><a class="language-dropdown-item">עברית</a></li><li data-code="hr"><a class="language-dropdown-item">hrvatski jezik</a></li><li data-code="hu"><a class="language-dropdown-item">magyar</a></li><li data-code="id"><a class="language-dropdown-item">Bahasa Indonesia</a></li><li data-code="it"><a class="language-dropdown-item">Italiano</a></li><li data-code="kk"><a class="language-dropdown-item">қазақ тілі</a></li><li data-code="lt"><a class="language-dropdown-item">lietuvių kalba</a></li><li data-code="mi"><a class="language-dropdown-item">te reo Māori</a></li><li data-code="mk-MK"><a class="language-dropdown-item">Македонски</a></li><li data-code="hi"><a class="language-dropdown-item">मानक हिन्दी</a></li><li data-code="mn"><a class="language-dropdown-item">Монгол хэл</a></li><li data-code="ms"><a class="language-dropdown-item">Bahasa Melayu</a></li><li data-code="my"><a class="language-dropdown-item">မြန်မာစကား</a></li><li data-code="nl-BE"><a class="language-dropdown-item">Nederlands (België)</a></li><li data-code="nl-NL"><a class="language-dropdown-item">Nederlands (Nederland)</a></li><li data-code="ja"><a class="language-dropdown-item">日本語</a></li><li data-code="nb"><a class="language-dropdown-item">Norsk Bokmål</a></li><li data-code="nn"><a class="language-dropdown-item">Norsk Nynorsk</a></li><li data-code="uz"><a class="language-dropdown-item">O'zbekcha</a></li><li data-code="pl"><a class="language-dropdown-item">język polski</a></li><li data-code="ro"><a class="language-dropdown-item">limba română</a></li><li data-code="sr"><a class="language-dropdown-item">српски</a></li><li data-code="sk"><a class="language-dropdown-item">slovenčina</a></li><li data-code="sl"><a class="language-dropdown-item">slovenščina</a></li><li data-code="fi"><a class="language-dropdown-item">suomi</a></li><li data-code="sv"><a class="language-dropdown-item">Svenska</a></li><li data-code="th"><a class="language-dropdown-item">ไทย</a></li><li data-code="tr"><a class="language-dropdown-item">Türkçe</a></li><li data-code="uk"><a class="language-dropdown-item">українська</a></li><li data-code="ur"><a class="language-dropdown-item">اُردُو</a></li><li data-code="vi"><a class="language-dropdown-item">Tiếng Việt</a></li><li data-code="zh-WUU-HANS"><a class="language-dropdown-item">吴语</a></li><li data-code="zh-WUU-HANT"><a class="language-dropdown-item">吳語</a></li></ul></li></ul><ul class="nav navbar-nav text-p login-buttons"><li><a id="create-account-link" data-event-action="Header Sign Up CTA" data-i18n="signup.sign_up" class="signup-button">Sign Up</a></li><li><a id="login-link" data-event-action="Header Login CTA" data-i18n="signup.login" class="login-button">Login</a></li></ul></div></div></div></div></nav><div id="site-content-area"><div class="container-fluid"><div id="jumbotron-container-fluid" class="row"><div class="col-lg-6"><h1 data-i18n="new_home.slogan" class="text-white">The most engaging way to learn computer science</h1><div class="button-section"><p><button data-event-action="Homepage Click Teacher Button #1 CTA" data-i18n="new_home.im_an_educator" style="text-transform: none" class="btn btn-lg btn-primary teacher-btn">I'm an Educator</button></p><p><button data-event-action="Homepage Click Student Button CTA" data-i18n="new_home.im_a_student" style="text-transform: none" class="btn btn-lg btn-primary student-btn">I'm a Student</button></p><p><a href="https://codecombat.com/play" data-i18n="common.play" data-event-action="Homepage Play Now CTA" style="text-transform: none" class="btn btn-lg btn-primary-alt play-btn">Play</a></p></div></div></div><div id="game-based" class="row vertical-align"><div class="col-md-5"><div class="game-based-blurb"><h3 data-i18n="new_home.game_based_blurb" class="text-navy">CodeCombat is a game-based computer science program where students type real code and see their characters react in real time.</h3><br><p><a href="https://codecombat.com/play" data-event-action="Homepage Try The Game CTA" data-i18n="new_home.try_the_game" class="btn btn-lg btn-primary play-btn">Try the game</a></p></div></div><div class="col-md-7"><div class="game-based-image"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/type_real_code_logo.gif" alt="CodeCombat character Anya follows typed code block to reach chest of gems"></div></div></div><div id="classroom-in-box-row" class="row row-dark"><div class="col-lg-12"><div class="container"><div class="row"><div class="col-lg-7 col-md-12"><div class="video-iframe"><iframe src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/229304323.html" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" width="640" height="350" class="vimeo-player" data-ready="true"></iframe></div></div><div class="col-lg-5 col-md-12"><h2 data-i18n="new_home.classroom_in_box_title">We Strive To:</h2><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/pink_rectangle.png" alt=""><ul><li><span data-i18n="new_home.classroom_in_box_blurb1" class="text-p">Engage every student so that they believe coding is for them.</span></li><li><span data-i18n="new_home.classroom_in_box_blurb2" class="text-p">Empower any educator to feel confident when teaching coding.</span></li><li><span data-i18n="new_home.classroom_in_box_blurb3" class="text-p">Inspire all school leaders to create a world-class computer science program.</span></li></ul></div></div><div class="row signup_btn"><button data-event-action="Homepage Sign Up #2 CTA" data-i18n="signup.sign_up" class="btn btn-lg btn-primary signup-button signup-home-btn">Sign Up</button></div></div></div></div><div id="creativity-rigor" class="row"><div class="col-lg-12"><h1 data-i18n="new_home.creativity_rigor_title" class="text-center text-navy">Where Creativity Meets Rigor</h1><div class="container"><div class="row"><div class="col-lg-4"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/creativity_rigor1.png" width="363" height="204" alt="Girl plays CodeCombat on a computer while smiling"><div class="tile-shadow"><h3 data-i18n="new_home.creativity_rigor_subtitle1" class="text-teal">Make coding fun and teach real-world skills</h3><p data-i18n="new_home.creativity_rigor_blurb1" class="text-navy">Students type real Python and JavaScript while playing games that encourage trial-and-error, critical thinking, and creativity. Students then apply the coding skills they’ve learned by developing their own games and websites in project-based courses.</p></div></div><div class="col-lg-4"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/creativity_rigor2.png" width="363" height="204" alt="Two girls share a computer with CodeCombat playing between them"><div class="tile-shadow"><h3 data-i18n="new_home.creativity_rigor_subtitle2" class="text-teal">Reach students at their level</h3><p data-i18n="new_home.creativity_rigor_blurb2" class="text-navy">Every CodeCombat level is scaffolded based on millions of data points and optimized to adapt to each learner. Practice levels and hints help students when they get stuck, and challenge levels assess students' learning throughout the game.</p></div></div><div class="col-lg-4"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/creativity_rigor3.png" width="363" height="204" alt-="Smiling professional teacher"><div class="tile-shadow"><h3 data-i18n="new_home.creativity_rigor_subtitle3" class="text-teal">Built for all teachers, regardless of experience</h3><p data-i18n="new_home.creativity_rigor_blurb3" class="text-navy">CodeCombat’s self-paced, standards-aligned curriculum makes teaching computer science possible for everyone. CodeCombat equips teachers with the training, instructional resources, and dedicated support to feel confident and successful in the classroom.</p></div></div></div></div><div class="text-center"><button data-event-action="Homepage Request Demo" data-i18n="new_home.request_quote" class="btn btn-lg btn-primary request-quote">Request a Quote</button></div></div></div><div id="built-for-teachers" class="row row-dark text-center"><div class="col-lg-12 width-container"><h1 data-i18n="new_home.built_for_teachers_title" class="text-gold">A Coding Game Built with Teachers in Mind</h1><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/pink_rectangle.png"><div class="row"><div class="col-lg-12"><div class="for-teachers-blurb"><p data-i18n="new_home.built_for_teachers_blurb">Teaching kids to code can often feel overwhelming. CodeCombat helps all educators teach students how to code in either JavaScript or Python, two of the most popular programming languages. With a comprehensive curriculum that includes six computer science units and reinforces learning through project-based game development and web development units, kids will progress on a journey from basic syntax to recursion!</p></div><div id="built-for-teachers-carousel" data-interval="3000" class="carousel text-left"><ol class="carousel-indicators"><li data-target="#built-for-teachers-carousel" data-slide-to="0" class="active"></li><li data-target="#built-for-teachers-carousel" data-slide-to="1"></li><li data-target="#built-for-teachers-carousel" data-slide-to="2"></li></ol><div class="carousel-inner"><div class="item active"><div class="row hidden-md hidden-sm hidden-xs"><div class="col-lg-6"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/built_for_teachers1.png" class="computer"></div><div class="col-lg-4 text-part-carousel"><h3 data-i18n="new_home.built_for_teachers_subtitle1" class="text-teal">Computer Science</h3><p data-i18n="[html]new_home.built_for_teachers_subblurb1" class="text-navy">Starting with our free Introduction to Computer Science course, students master core coding concepts such as while/for loops, functions, and algorithms.</p><br><button data-event-action="Homepage Click Teacher Button CTA" data-i18n="[html]new_home.teach_cs1_free" class="btn btn-lg btn-primary-alt teacher-btn">Teach CS1 Free</button></div><div class="col-lg-2"><p><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/javascript_logo.png" height="60"></p><p><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/python_logo.png" height="60"></p></div></div><div class="row hidden-lg"><div class="col-lg-12 text-center"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/built_for_teachers1.png" class="computer"><br><h3 data-i18n="new_home.built_for_teachers_subtitle1" class="text-teal">Computer Science</h3><p data-i18n="[html]new_home.built_for_teachers_subblurb1" class="text-navy padding-sm">Starting with our free Introduction to Computer Science course, students master core coding concepts such as while/for loops, functions, and algorithms.</p><br><button data-event-action="Homepage Click Teacher Button CTA" data-i18n="[html]new_home.teach_cs1_free" class="btn btn-lg btn-primary-alt teacher-btn">Teach CS1 Free</button></div></div></div><div class="item"><div class="row hidden-md hidden-sm hidden-xs"><div class="col-lg-6"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/built_for_teachers2.png" alt="A CodeCombat level with gems and an exit with Anya announcing moveRight" class="computer"></div><div class="col-lg-4 text-part-carousel"><h3 data-i18n="new_home.built_for_teachers_subtitle2" class="text-teal">Game Development</h3><p data-i18n="new_home.built_for_teachers_subblurb2" class="text-navy">Learners construct mazes and use basic input handling to code their own games that can be shared with friends and family.</p><br><a href="https://codecombat.com/play/game-dev-level/game-dev-3-final-project/5c61d94ed5d92b00292bca34" target="_blank" data-event-action="Homepage See Example Game Dev CTA" data-i18n="new_home.see_example" class="btn btn-lg btn-primary-alt example-gd-btn">See example</a></div><div class="col-lg-2"><p><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/javascript_logo.png" height="60"></p><p><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/python_logo.png" height="60"></p></div></div><div class="row hidden-lg"><div class="col-lg-12 text-center"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/built_for_teachers2.png" alt="Maze style game, with Anya dodging fireballs, a red cross marking the exit and an ogre blocking the route" class="computer"><h3 data-i18n="new_home.built_for_teachers_subtitle2" class="text-teal">Game Development</h3><p data-i18n="new_home.built_for_teachers_subblurb2" class="text-navy padding-sm">Learners construct mazes and use basic input handling to code their own games that can be shared with friends and family.</p><br><a href="https://codecombat.com/play/game-dev-level/game-dev-3-final-project/5c61d94ed5d92b00292bca34" target="_blank" data-event-action="Homepage See Example Game Dev CTA" data-i18n="new_home.see_example" class="btn btn-lg btn-primary-alt example-gd-btn">See example</a></div></div></div><div class="item"><div class="row hidden-md hidden-sm hidden-xs"><div class="col-lg-6"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/built_for_teachers3.png" alt="Wanted poster style web page with an image of a cute cow" class="computer"></div><div class="col-lg-4 text-part-carousel"><h3 data-i18n="new_home.built_for_teachers_subtitle3" class="text-teal">Web Development</h3><p data-i18n="new_home.built_for_teachers_subblurb3" class="text-navy">Using HTML, CSS, and jQuery, learners flex their creative muscles to program their own webpages with a custom URL to share with their classmates.</p><br><a href="https://codecombat.com/play/web-dev-level/wanted-poster/5c61db34ccc65a003baf6429?course=5789587aad86a6efb573701f" target="_blank" data-event-action="Homepage See Example Web Dev CTA" data-i18n="new_home.see_example" class="btn btn-lg btn-primary-alt example-wd-btn">See example</a></div><div class="col-lg-2"><p><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/html_logo.png" height="60"></p><p><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/css_logo.png" height="60"></p><p><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/jquery_logo.png" height="60"></p></div></div><div class="row hidden-lg"><div class="col-lg-12 text-center"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/built_for_teachers3.png" class="computer"><h3 data-i18n="new_home.built_for_teachers_subtitle3" class="text-teal">Web Development</h3><p data-i18n="new_home.built_for_teachers_subblurb3" class="text-navy padding-sm">Using HTML, CSS, and jQuery, learners flex their creative muscles to program their own webpages with a custom URL to share with their classmates.</p><br><a href="https://codecombat.com/play/web-dev-level/wanted-poster/5c61db34ccc65a003baf6429?course=5789587aad86a6efb573701f" target="_blank" data-event-action="Homepage See Example Web Dev CTA" data-i18n="new_home.see_example" class="btn btn-lg btn-primary-alt example-wd-btn">See example</a></div></div></div></div><a href="https://codecombat.com/#built-for-teachers-carousel" role="button" data-slide="prev" class="left carousel-control"><span aria-hidden="true"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/arrow_teal_left.png"></span><span data-i18n="about.previous" class="sr-only">Previous</span></a><a href="https://codecombat.com/#built-for-teachers-carousel" role="button" data-slide="next" class="right carousel-control"><span aria-hidden="true"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/arrow_teal_right.png"></span><span data-i18n="play.next" class="sr-only">Next</span></a></div></div></div></div></div><div id="for-teachers" class="row text-center"><div class="col-lg-12"><h1 data-i18n="new_home.for_teachers_title" class="text-navy">For Teachers</h1><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/pink_rectangle.png"><h5 data-i18n="new_home.for_teachers_blurb" class="text-gray">Tools to Unlock Student Potential</h5><div class="container"><div class="row first_row"><div class="col-lg-6"><div class="tile-shadow"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/project_based_learning.png" alt="Cartoon hands holding world drawn as a blue network"><h3 data-i18n="new_home.for_teachers_subtitle1" class="text-teal">Project-Based Learning</h3><p data-i18n="new_home.for_teachers_subblurb1" class="text-navy">Promote creativity, problem-solving, and confidence in project-based courses where students develop their own games and webpages.</p></div></div><div class="col-lg-6"><div class="tile-shadow"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/teacher_dashboard.png" alt="Increasing graph"><h3 data-i18n="new_home.for_teachers_subtitle2" class="text-teal">Teacher Dashboard</h3><p data-i18n="new_home.for_teachers_subblurb2" class="text-navy">View data on student progress, discover curriculum resources, and access real-time support to empower student learning.</p></div></div></div><div class="row second_row"><div class="col-lg-6"><div class="tile-shadow"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/built_in_assessments.png" alt="Magnifying glass on cartoon report"><h3 data-i18n="new_home.for_teachers_subtitle3" class="text-teal">Built-in Assessments</h3><p data-i18n="new_home.for_teachers_subblurb3" class="text-navy">Personalize instruction and ensure students understand core concepts with formative and summative assessments.</p></div></div><div class="col-lg-6"><div class="tile-shadow"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/automatic_differentiation.png" alt="Blue, green and orange arrow pointing in different directions"><h3 data-i18n="new_home.for_teachers_subtitle4" class="text-teal">Automatic Differentiation</h3><p data-i18n="new_home.for_teachers_subblurb4" class="text-navy">Engage all learners in a diverse classroom with practice levels that adapt to each student's learning needs.</p></div></div></div></div><div class="text-center"><button data-event-action="Homepage Sign Up #3 CTA" data-i18n="signup.sign_up" class="btn btn-lg btn-primary teacher-btn">Sign Up</button></div></div></div><div id="teachers-love-codecombat" class="row row-dark text-center"><div class="col-lg-12"><h1 data-i18n="new_home.teachers_love_codecombat_title" class="text-white">Teachers Love CodeCombat</h1><div class="container"><div class="row"><div class="col-xs-4"><div class="width-320"><h1 class="text-gold">99%</h1><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/pink_rectangle.png"><h4 data-i18n="new_home.teachers_love_codecombat_blurb1" class="text-white">Report that their students enjoy using CodeCombat to learn how to code</h4></div></div><div class="col-xs-4"><div class="width-320"><h1 class="text-gold">95%</h1><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/pink_rectangle.png"><h4 data-i18n="new_home.teachers_love_codecombat_blurb2" class="text-white">Would recommend CodeCombat to other computer science teachers</h4></div></div><div class="col-xs-4"><div class="width-320"><h1 class="text-gold">94%</h1><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/pink_rectangle.png"><h4 data-i18n="new_home.teachers_love_codecombat_blurb3" class="text-white">Say that CodeCombat helps them support students’ problem solving abilities</h4></div></div></div><p data-i18n="new_home.teachers_love_codecombat_subblurb" class="mcrel-blurb">In partnership with McREL International, a leader in research-based guidance and evaluations of educational technology.</p></div></div></div><div id="for-leaders" class="row text-center"><div class="col-lg-12"><h1 data-i18n="new_home.for_leaders_title" class="text-navy">For School Leaders</h1><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/pink_rectangle.png"><h5 data-i18n="new_home.for_leaders_blurb" class="text-gray">A Comprehensive, Standards-Aligned Computer Science Program</h5><div class="container"><div class="row first_row"><div class="col-lg-6"><div class="tile-shadow"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/easy_implementation.png" alt="Cartoon hand tapping on cartoon sky"><h3 data-i18n="new_home.for_leaders_subtitle1" class="text-teal">Easy Implementation</h3><p data-i18n="new_home.for_leaders_subblurb1" class="text-navy">A web-based program that requires no IT support. Get started in under 5 minutes using Google or Clever Single Sign-On (SSO).</p></div></div><div class="col-lg-6"><div class="tile-shadow"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/comprehensive_curriculum.png" alt="Cartoon classroom"><h3 data-i18n="new_home.for_leaders_subtitle2" class="text-teal">Full Coding Curriculum</h3><p data-i18n="new_home.for_leaders_subblurb2" class="text-navy">A standards-aligned curriculum with instructional resources and professional development to enable any teacher to teach computer science.</p></div></div></div><div class="row second_row"><div class="col-lg-6"><div class="tile-shadow"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/flexible_use_cases.png" alt="Graph like diagram with CC logo in the center"><h3 data-i18n="new_home.for_leaders_subtitle3" class="text-teal">Flexible Use Cases</h3><p data-i18n="new_home.for_leaders_subblurb3" class="text-navy">Whether you want to build a Middle School coding elective, a CTE pathway, or an AP Computer Science Principles class, CodeCombat is tailored to suit your needs.</p></div></div><div class="col-lg-6"><div class="tile-shadow"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/real_world_skills.png" alt="Cartoon girl rolling huge stone up a mountain"><h3 data-i18n="new_home.for_leaders_subtitle4" class="text-teal">Real-World Skills</h3><p data-i18n="new_home.for_leaders_subblurb4" class="text-navy">Students build grit and develop a growth mindset through coding challenges that prepare them for the 500K+ open computing jobs.</p></div></div></div></div><div class="text-center"><button data-event-action="Homepage Request Demo Page Bottom" data-i18n="new_home.request_quote" class="btn btn-lg btn-primary request-quote">Request a Quote</button></div></div></div><div id="quotes" class="row"><div class="col-lg-12"><div class="text-center"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/teal_quote.png"></div><div class="container"><div class="row"><div class="col-lg-12"><div id="quotes-carousel" data-interval="3000" class="carousel text-left"><ol class="carousel-indicators"><li data-target="#quotes-carousel" data-slide-to="0" class="active"></li><li data-target="#quotes-carousel" data-slide-to="1"></li><li data-target="#quotes-carousel" data-slide-to="2"></li><li data-target="#quotes-carousel" data-slide-to="2"></li></ol><div class="carousel-inner"><div class="item active"><div class="text-center"><h4 data-i18n="new_home.quotes_quote1" class="text-white">Name any program online, I’ve tried it. None of them match up to CodeCombat. Any teacher who wants their students to learn how to code... start here!</h4><div><div class="thumbnail"><span><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/quotes_carousel1.png" style="border: #F2BE19 3px solid; border-radius: 50%"></span><span class="quote-user-info"><h3 class="text-teal">Scott Baily</h3><p class="text-white">Bobby Duke Middle School, California</p></span></div></div></div></div><div class="item"><div class="text-center"><h4 data-i18n="new_home.quotes_quote2" class="text-white"> I was surprised about how easy and intuitive CodeCombat makes learning computer science. The scores on the AP exam were much higher than I expected and I believe CodeCombat is the reason why this was the case.</h4><div><div class="thumbnail"><span><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/quotes_carousel2.png"></span><span class="quote-user-info"><h3 class="text-teal">Andrew Forseman</h3><p class="text-white">River Ridge High School, Florida</p></span></div></div></div></div><div class="item"><div class="text-center"><h4 data-i18n="new_home.quotes_quote3" class="text-white">CodeCombat has been the most beneficial for teaching my students real-life coding capabilities. My husband is a software engineer and he has tested out all of my programs. He put this as his top choice.</h4><div><div class="thumbnail"><span><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/quotes_carousel3.png"></span><span class="quote-user-info"><h3 class="text-teal">Holly Ades</h3><p class="text-white">Riverdale High School, Florida</p></span></div></div></div></div><div class="item"><div class="text-center"><h4 data-i18n="new_home.quotes_quote4" class="text-white wider">The feedback … has been so positive that we are structuring a computer science class around CodeCombat. The program really engages the students with a gaming style platform that is entertaining and instructional at the same time. Keep up the good work, CodeCombat!</h4><div><div class="thumbnail"><span><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/quotes_carousel4.png"></span><span class="quote-user-info"><h3 class="text-teal">Robert Gower</h3><p class="text-white"> John Page Middle School, Michigan</p></span></div></div></div></div></div><a href="https://codecombat.com/#quotes-carousel" role="button" data-slide="prev" class="left carousel-control"><span aria-hidden="true"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/arrow_gold_left.png"></span><span data-i18n="about.previous" class="sr-only">Previous</span></a><a href="https://codecombat.com/#quotes-carousel" role="button" data-slide="next" class="right carousel-control"><span aria-hidden="true"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/arrow_gold_right.png"></span><span data-i18n="play.next" class="sr-only">Next</span></a></div></div></div></div></div></div><div id="century-skills" class="row text-center"><div class="col-lg-12 width-container"><h1 data-i18n="new_home.century_skills_title" class="text-navy">21st Century Skills</h1><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/pink_rectangle.png"><div class="row"><div class="col-lg-12"><h5 data-i18n="new_home.century_skills_blurb1" class="text-center">Students Don't Just Level Up Their Hero, They Level Up Themselves</h5><br><div id="century-skills-carousel" data-interval="3000" class="carousel text-left"><ol class="carousel-indicators"><li data-target="#century-skills-carousel" data-slide-to="0" class="active"></li><li data-target="#century-skills-carousel" data-slide-to="1"></li><li data-target="#century-skills-carousel" data-slide-to="2"></li><li data-target="#century-skills-carousel" data-slide-to="3"></li></ol><div class="carousel-inner"><div class="item active"><div class="row carousel-body"><div class="col-lg-8"><div class="quote quote-1 text-center"><br><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/teal_quote.png"><h4 data-i18n="new_home.century_skills_quote1" class="text-white">You mess up…so then you think about all of the possible ways to fix it, and then try again. I wouldn't be able to get here without trying hard.</h4><h3 class="text-teal">Isaiah, 7th Grade</h3></div></div><div class="col-lg-4"><h3 data-i18n="new_home.century_skills_subtitle1" class="text-teal">Critical Thinking</h3><br><p data-i18n="new_home.century_skills_subblurb1" class="text-white">With coding puzzles that are naturally scaffolded into increasingly challenging levels, CodeCombat's programming game ensures kids are always practicing critical thinking.</p></div></div></div><div class="item"><div class="row carousel-body"><div class="col-lg-8"><div class="quote quote-2 text-center"><br><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/teal_quote.png"><h4 data-i18n="new_home.century_skills_quote2" class="text-white">Everyone else was making mazes, so I thought, ‘capture the flag’ and that’s what I did.</h4><h3 class="text-teal">Sam, 4th Grade</h3></div></div><div class="col-lg-4"><h3 data-i18n="new_home.century_skills_subtitle2" class="text-teal">Creativity</h3><br><p data-i18n="new_home.century_skills_subblurb2" class="text-white">CodeCombat encourages students to showcase their creativity by building and sharing their own games and webpages.</p></div></div></div><div class="item"><div class="row carousel-body"><div class="col-lg-8"><div class="quote quote-3 text-center"><br><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/teal_quote.png"><h4 data-i18n="new_home.century_skills_quote3" class="text-white">If I got stuck on a level. I would work with people around me until we were all able to figure it out.</h4><h3 class="text-teal">Jake, 10th Grade</h3></div></div><div class="col-lg-4"><h3 data-i18n="new_home.century_skills_subtitle3" class="text-teal">Collaboration</h3><br><p data-i18n="new_home.century_skills_subblurb3" class="text-white">Throughout the game, there are opportunities for students to collaborate when they get stuck and to work together using our pair programming guide.</p></div></div></div><div class="item"><div class="row carousel-body"><div class="col-lg-8"><div class="quote quote-4 text-center"><br><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/teal_quote.png"><h4 data-i18n="new_home.century_skills_quote4" class="text-white">I’ve always had aspirations of designing video games and learning how to code ... this is giving me a great starting point.</h4><h3 class="text-teal">Joey, 10th Grade</h3></div></div><div class="col-lg-4"><h3 data-i18n="new_home.century_skills_subtitle4" class="text-teal">Communication</h3><br><p data-i18n="new_home.century_skills_subblurb4" class="text-white">Coding requires kids to practice new forms of communication, including communicating with the computer itself and conveying their ideas using the most efficient code.</p></div></div></div></div><a href="https://codecombat.com/#century-skills-carousel" role="button" data-slide="prev" class="left carousel-control"><span aria-hidden="true"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/arrow_pink_left.png"></span><span data-i18n="about.previous" class="sr-only">Previous</span></a><a href="https://codecombat.com/#century-skills-carousel" role="button" data-slide="next" class="right carousel-control"><span aria-hidden="true"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/arrow_pink_right.png"></span><span data-i18n="play.next" class="sr-only">Next</span></a></div></div></div></div></div><div id="global" class="row row-dark text-center"><div class="col-lg-12"><h2 data-i18n="new_home.global_title" class="text-white">Join Our Global Community of Learners and Educators</h2><div class="container"><div class="row"><div class="col-md-3 col-xs-6"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/global_learners.png"><h2 class="text-gold">12 Million</h2><h5 data-i18n="new_home.global_subtitle1" class="text-white">Learners</h5></div><div class="col-md-3 col-xs-6"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/global_code.png"><h2 class="text-gold">1 Billion</h2><h5 data-i18n="new_home.global_subtitle2" class="text-white">Lines of Code</h5></div><div class="col-md-3 col-xs-6"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/global_teachers.png"><h2 class="text-gold">82,000</h2><h5 data-i18n="new_home.global_subtitle3" class="text-white">Teachers</h5></div><div class="col-md-3 col-xs-6"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/global_countries.png"><h2 class="text-gold">190</h2><h5 data-i18n="new_home.global_subtitle4" class="text-white">Countries</h5></div></div></div></div></div><div id="featured-partners" class="row text-center"><div class="col-lg-12"><div class="container inner-container"><div class="row"><div class="col-lg-4 col-xs-12"><div class="container-fluid featured-section"><div class="row"><div class="col-xs-12"><h2 data-i18n="new_home.featured_partners_title1" class="text-navy">Featured In</h2><div class="pink-bar"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/pink_rectangle.png"></div></div></div><div class="row"><div class="tile-row"><div class="col-xs-6 tile-shadow"><a href="http://www.pcmag.com/article2/0,2817,2493689,00.asp" target="_blank" class="featured-partners-tile-logo logo-pcmag"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/logo_pcmag.png"></a></div><div class="col-xs-6 tile-shadow"><a href="https://www.edsurge.com/news/2016-05-02-codecombat-scores-2-million-seed-round-to-bring-programming-adventure-to-schools" target="_blank" class="featured-partners-tile-logo logo-edsurge"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/logo_edsurge.png"></a></div></div></div><div class="row"><div class="tile-row"><div class="col-xs-6 tile-shadow"><a href="https://www.wsj.com/articles/codecombat-uses-fantasy-games-to-teach-coding-in-schools-1462188602" target="_blank" class="featured-partners-tile-logo logo-wsj"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/logo_wsj.png"></a></div><div class="col-xs-6 tile-shadow"><a href="https://techcrunch.com/2014/03/19/yc-backed-codecombat-wants-you-to-learn-to-code-by-playing-games/" target="_blank" class="featured-partners-tile-logo logo-techcrunch"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/logo_techcrunch.png"></a></div></div></div></div></div><div class="col-lg-1 col-xs-0"></div><div class="col-lg-7 col-xs-12"><div class="container-fluid partners-section"><div class="row"><div class="col-xs-12"><h2 data-i18n="new_home.featured_partners_title2" class="text-navy">Awards &amp; Partners</h2><div class="pink-bar"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/pink_rectangle.png"></div></div></div><div class="row"><div class="tile-row"><div class="col-sm-12 tile-shadow"><a href="https://codecombat.com/apcsp" target="_blank" class="featured-partners-tile-logo logo-apcsp"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/logo_apcsp.png"></a><div data-i18n="new_home.featured_partners_blurb1" class="logo-blurb">CollegeBoard Endorsed Provider</div></div><div class="col-sm-12 tile-shadow"><a href="http://www.siia.net/codie/About-the-Awards/Past-Winners/2017-Winners/Details/nID/486" target="_blank" class="featured-partners-tile-logo logo-codie"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/logo_codie.png"></a><div data-i18n="new_home.featured_partners_blurb2" class="logo-blurb">Best Creativity Tool for Students</div></div><div class="col-sm-12 tile-shadow"><a href="https://www.commonsense.org/education/game/codecombat" target="_blank" class="featured-partners-tile-logo logo-cse-picks"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/logo_cse_picks.png"></a><div data-i18n="new_home.featured_partners_blurb3" class="logo-blurb">Top Pick for Learning</div></div></div></div><div class="row"><div class="tile-row"><div class="col-sm-12 tile-shadow"><a href="https://code.org/educate/curriculum/middle-school" target="_blank" class="featured-partners-tile-logo logo-code-org"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/logo_code_org.png"></a><div data-i18n="new_home.featured_partners_blurb4" class="logo-blurb">Code.org Official Partner</div></div><div class="col-sm-12 tile-shadow"><a href="https://www.csforall.org/projects_and_programs/member_directory/members/codecombat/" target="_blank" class="featured-partners-tile-logo logo-csforall"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/logo_csforall.png"></a><div data-i18n="new_home.featured_partners_blurb5" class="logo-blurb">CSforAll Official Member</div></div><div class="col-sm-12 tile-shadow"><a href="https://aws.amazon.com/blogs/publicsector/aws-educate-and-amazon-future-engineer-teamed-with-codecombat-to-create-a-new-game-for-the-hour-of-code/" target="_blank" class="featured-partners-tile-logo logo-amazon-future-engineer"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/logo_amazon_future_engineer.png"></a><div data-i18n="new_home.featured_partners_blurb6" class="logo-blurb">Hour of Code Activity Partner</div></div></div></div></div></div></div></div></div></div></div></div><div class="container-fluid"><div id="footer" class="small"><div class="container"><div class="row"><div class="col-lg-12"><div class="row"><div class="col-lg-3"><h3 data-i18n="nav.general">General</h3><ul class="list-unstyled"><li><a href="https://codecombat.com/about" data-i18n="nav.about">About</a></li><li><a href="https://codecombat.com/about#careers" data-i18n="nav.careers">Careers</a></li><li><a tabindex="-1" data-i18n="nav.contact" class="contact-modal">Contact</a></li><li><a href="https://codecombat.com/parents" data-i18n="nav.parent">Parents</a></li><li><a href="http://blog.codecombat.com/" data-i18n="nav.blog">Blog</a></li></ul></div><div class="col-lg-3"><h3 data-i18n="nav.educators">Educators</h3><ul class="list-unstyled"><li><a href="https://codecombat.com/teachers/resources/faq" data-i18n="teacher.educator_faq">Educator FAQ</a></li><li><a href="https://codecombat.com/teachers/resources" data-i18n="nav.resource_hub">Resource Hub</a></li><li><a href="https://codecombat.com/apcsp" data-i18n="nav.apcsp">AP CS Principles</a></li><li><a href="https://codecombat.com/teachers/classes" data-i18n="nav.my_classrooms">My Classes</a></li></ul></div><div class="col-lg-3"><h3 data-i18n="nav.get_involved">Get Involved</h3><ul class="list-unstyled"><li><a href="https://codecombat.com/community" data-i18n="nav.community">Community</a></li><li><a href="https://codecombat.com/play/ladder" data-i18n="game_menu.multiplayer_tab">Multiplayer</a></li><li><a href="https://github.com/codecombat/codecombat">GitHub</a></li><li><a href="http://discourse.codecombat.com/" data-i18n="nav.forum">Forum</a></li></ul></div><div class="col-lg-3"><h3 data-i18n="nav.follow_us">Follow Us</h3><div class="social-buttons"><a href="https://www.youtube.com/channel/UCEl7Rs_jtl3hcbnp0xZclQA" target="_blank"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/youtube_symbol_button.png" width="40"></a><a href="https://twitter.com/codecombat" target="_blank"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/twitter_logo_btn.png" width="40"></a><a href="https://www.facebook.com/codecombat" target="_blank"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/facebook_logo_btn.png" width="40"></a></div></div></div></div></div></div></div></div><div id="final-footer" dir="ltr"><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/logo.png" alt="CodeCombat"><div class="float-right"><span data-i18n="nav.copyright_prefix">Copyright</span><span> ©2019 CodeCombat Inc. </span><span data-i18n="nav.copyright_suffix" class="spl">All Rights Reserved.</span><a href="https://codecombat.com/legal" class="small">Terms of Service</a><a href="https://codecombat.com/privacy" class="small">Privacy</a></div></div></div></div></div><div class="modal-content" id="modal-wrapper"><div id="create-account-modal" class="modal fade in" style="display: block;"><div class="modal-dialog"><div id="modal-base-flat" class="modal-content style-flat"><div class="modal-header individual"><span data-dismiss="modal" aria-hidden="true" class="glyphicon glyphicon-remove button close"></span><h3><span data-i18n="signup.create_individual_header">Create Individual Account</span></h3></div><div id="confirmation-view"><div class="modal-body"><div class="modal-body-content"><h4 data-i18n="signup.account_created" class="m-y-1">Account Created!</h4><div class="confirm_container text-center m-y-1"><p data-i18n="signup.confirm_individual_blurb">Write down your login information in case you need it later. Verify your email so you can recover your account if you ever forget your password - check your inbox!</p></div><div class="signup-info-box-wrapper"><div data-i18n="signup.write_this_down" class="text-burgundy">Write this down:</div><div class="signup-info-box text-center"><h4><b><span data-i18n="general.username">Username</span>: marieteresahotchkiss18</b></h4><h5><b><img src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/gplus_small.png" class="m-r-1">mtknowlton67@gmail.com</b></h5></div></div><button id="start-btn" data-i18n="signup.start_playing" class="btn btn-navy btn-lg m-t-3">Start Playing!</button></div></div></div><div class="modal-footer individual"></div></div></div></div></div><!-- CodePlay Tags Footer--><flying-focus id="flying-focus" style="transition-duration: 0.1s; left: 870.865px; top: 696.354px; width: 166px; height: 45px;"></flying-focus><style>#flying-focus {	position: absolute;	margin: 0;	background: transparent;	-webkit-transition-property: left, top, width, height, opacity;	transition-property: left, top, width, height, opacity;	-webkit-transition-timing-function: cubic-bezier(0, 0.2, 0, 1);	transition-timing-function: cubic-bezier(0, 0.2, 0, 1);	visibility: hidden;	pointer-events: none;	box-shadow: 0 0 2px 3px #78aeda, 0 0 2px #78aeda inset; border-radius: 2px;}#flying-focus.flying-focus_visible {	visibility: visible;	z-index: 9999;}.flying-focus_target {	outline: none !important; /* Doesn't work in Firefox :( */}/* http://stackoverflow.com/questions/71074/how-to-remove-firefoxs-dotted-outline-on-buttons-as-well-as-links/199319 */.flying-focus_target::-moz-focus-inner {	border: 0 !important;}/* Replace it with @supports rule when browsers catch up */@media screen and (-webkit-min-device-pixel-ratio: 0) {	#flying-focus {		box-shadow: none;		outline: 5px auto -webkit-focus-ring-color;		outline-offset: -3px;	}}</style><iframe id="intercom-frame" style="position: absolute !important; opacity: 0 !important; width: 1px !important; height: 1px !important; top: 0 !important; left: 0 !important; border: none !important; display: block !important; z-index: -1 !important;" aria-hidden="true" tabindex="-1" src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/saved_resource.html"></iframe><div id="intercom-css-container"><style data-emotion="intercom-global"></style></div><div id="intercom-container" class="intercom-namespace"><style>html.intercom-mobile-messenger-active,html.intercom-mobile-messenger-active > body,html.intercom-modal-open,#intercom-container-body{overflow:hidden !important;}html.intercom-mobile-messenger-active,html.intercom-mobile-messenger-active > body{position:static !important;}html.intercom-mobile-messenger-active > body{height:0 !important;margin:0 !important;}iframe#intercom-frame{position:absolute !important;opacity:0 !important;width:1px !important;height:1px !important;top:0 !important;left:0 !important;border:none !important;display:block !important;z-index:-1 !important;}</style></div><iframe id="ssIFrame_google" sandbox="allow-scripts allow-same-origin" aria-hidden="true" frame-border="0" src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/iframe.html" style="position: absolute; width: 1px; height: 1px; left: -9999px; top: -9999px; right: -9999px; bottom: -9999px; display: none;"></iframe><iframe id="apiproxyd036cd7d0bd4f52ebc9062bdb84db9b16d2911cd0.1523363" name="apiproxyd036cd7d0bd4f52ebc9062bdb84db9b16d2911cd0.1523363" src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/proxy.html" tabindex="-1" aria-hidden="true" style="width: 1px; height: 1px; position: absolute; top: -100px; display: none;"></iframe><iframe id="apiproxyaa7c2ee061376674ccdaa291dec26294b2a1195b0.224078215" name="apiproxyaa7c2ee061376674ccdaa291dec26294b2a1195b0.224078215" src="./CodeCombat - Coding games to learn Python and JavaScript _ CodeCombat_files/proxy(1).html" tabindex="-1" aria-hidden="true" style="width: 1px; height: 1px; position: absolute; top: -100px; display: none;"></iframe><div class="modal-backdrop fade in"></div></body></html>
