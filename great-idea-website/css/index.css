@@ -64,14 +64,19 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-
+body {
+	
+	background-size: cover;
+	font-family: roboto;
+	
+  
+  }
 .container {
+	background:url( 'User-Interface\great-idea-website\img\mid-page-accent.jpg');
 	width: 800px;
 	margin: auto;
 	}
-	body {
-	  background: ;	
-	}
+	
 	
 p {
 	font-family: 'Courgette', cursive;	
@@ -79,28 +84,61 @@ p {
 
 
 .top-nav {
-	background: chocolate;
+	
 	position:fixed;
+	
 	margin: 0 auto;
+  border: 1px solid lightgray;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 20px;
+  
+  text-decoration: none;
+  
+   /*======= create a background property. Set the value to #F87B99 */
+  background: gray;
+  box-shadow:10px 10px 5px  orangered;
 }
 
 nav {
-	background: orangered;
+	
 	display: inline-block;
-	margin: 0 0 10px;
+	
+    
+     text-decoration: none;
+   margin-bottom: 20px;
+   box-shadow:10px 10px 5px  black;
 }
 
 nav a {
+	
 	/* TB LR */
-	margin: 20px;
-	color: lightgray;
+	background:orange;
+	margin: 0 6px;
+	color: green;
 	text-decoration: none;
+	border: 1px solid red;
+	padding:5px;
+	border-radius:10PX;
+	box-shadow:10px 10px 5px  black;
 }
 
+.top-nav a:hover{
+	background: green ;
+	color: greenyellow;
+	text-decoration: none;
+	border: 1px solid blue;
+	padding:5px;
+	border-radius:10PX;
+	box-shadow:10px 10px 5px  black;
+}
 .logo {
-	
+	background:white;
 	display: inline-block;
 	margin: 20px 0 -11px 50px;
+	padding:5px;
+	border-radius:10PX;
+	box-shadow:10px 10px 5px  black;
 }
 
 .header-content {
@@ -131,12 +169,13 @@ nav a {
 	font-size: 13px;
 	text-align: center;
 	border: 1px solid black;
+	box-shadow:10px 10px 5px  black;
 }
 
 .main-img {
 	display: inline-block;
-	width: 100px;
-	
+	width: 50px;
+	box-shadow:10px 10px 5px  black;
 }
 
 .top-content {

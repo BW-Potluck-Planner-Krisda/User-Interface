@@ -1,7 +1,0 @@
-window.serverConfig = {"simulationThroughputRatio":1,"sessionSaveDelay":{"registered":{"min":10,"max":30},"anonymous":{"min":20,"max":60}},"showCodePlayAds":false,"latestAnnouncement":2,"picoCTF":false,"production":true,"codeNinjas":false,"fullUnsafeContentHostname":"codecombatprojects.com","buildInfo":{"sha":"1c8a8e87bd722e5a40a8ea929abe427dd5a8e132-0eecdf5a8f2b6a0991095f86c4325767b8fb1c0c"}};
-window.userObject = {"_id":"5dba47699730ee00232ed7e0","createdOnHost":"codecombat.com","testGroupNumberUS":168,"country":"united-states","testGroupNumber":27,"anonymous":false,"__v":1,"referrer":"https:\/\/www.google.com\/","birthday":"1967-02","emails":{"generalNews":{"enabled":true}},"firstName":"marie","lastName":"knowlton","email":"mtknowlton67@gmail.com","gplusID":"114474800096389745228","name":"marieteresahotchkiss18","slug":"marieteresahotchkiss18","activity":{"login":{"first":"2019-10-31T02:33:58.675Z","count":1,"last":"2019-10-31T02:33:58.675Z"}},"dateCreated":"2019-10-31T02:31:05.172Z"};
-window.serverSession = {};
-window.features = {};
-window.me = {
-	get: function(attribute) { return window.userObject[attribute]; }
-};
